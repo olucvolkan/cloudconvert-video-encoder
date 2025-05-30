@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Video Encoding Script using CloudConvert API
-Scans /videos/{YYYY}/{MM}/{DD} folders for MP4 files and encodes them
+Scans /Users/volkanoluc/videos/{YYYY}/{MM}/{DD} folders for MP4 files and encodes them
 Logs results to CSV file with filename, before/after file sizes
 """
 
@@ -17,7 +17,7 @@ import cloudconvert
 
 # Configuration
 CLOUDCONVERT_API_KEY = os.getenv('CLOUDCONVERT_API_KEY')
-VIDEOS_BASE_PATH = '/videos'
+VIDEOS_BASE_PATH = '/Users/volkanoluc/videos'
 LOG_FILE = 'video_encoding.log'
 CSV_LOG_FILE = 'video_encoding_log.csv'
 TEMP_DIR = '/tmp/cloudconvert_temp'
@@ -133,10 +133,12 @@ class VideoEncoder:
                         "operation": "convert",
                         "input": "import-video",
                         "output_format": ENCODING_SETTINGS['output_format'],
-                        "video_codec": ENCODING_SETTINGS['video_codec'],
-                        "audio_codec": ENCODING_SETTINGS['audio_codec'],
-                        "quality": ENCODING_SETTINGS['quality'],
-                        "preset": ENCODING_SETTINGS['preset']
+                        "options": {
+                            "video_codec": ENCODING_SETTINGS['video_codec'],
+                            "audio_codec": ENCODING_SETTINGS['audio_codec'],
+                            "quality": ENCODING_SETTINGS['quality'],
+                            "preset": ENCODING_SETTINGS['preset']
+                        }
                     },
                     "export-video": {
                         "operation": "export/url",
@@ -169,6 +171,15 @@ class VideoEncoder:
             
             # Check if job completed successfully
             if completed_job['status'] != 'finished':
+                # Log detailed error information
+                self.logger.error(f"Job failed with status: {completed_job['status']}")
+                self.logger.error(f"Job details: {completed_job}")
+                
+                # Check for task-specific errors
+                for task in completed_job.get('tasks', []):
+                    if task.get('status') == 'error':
+                        self.logger.error(f"Task '{task.get('name', 'unknown')}' failed: {task.get('message', 'No error message')}")
+                
                 raise Exception(f"Job failed with status: {completed_job['status']}")
             
             # Find export task and download result

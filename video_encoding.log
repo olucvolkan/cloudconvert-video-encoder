@@ -1,0 +1,81 @@
+2025-05-30 17:14:54,111 - INFO - Scanning folder: /Users/volkanoluc/videos/2025/05/30
+2025-05-30 17:14:54,111 - INFO - Found 1 video files to process
+2025-05-30 17:14:54,111 - INFO - Processing /Users/volkanoluc/videos/2025/05/30/example.mp4
+2025-05-30 17:14:54,111 - INFO - Starting encoding of /Users/volkanoluc/videos/2025/05/30/example.mp4
+2025-05-30 17:14:54,111 - INFO - Request[POST]: https://api.cloudconvert.com/v2/jobs
+2025-05-30 17:14:54,111 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-05-30 17:14:54,290 - INFO - Response[201]: Created, Duration: 0.178419s.
+2025-05-30 17:14:54,290 - INFO - Created CloudConvert job: 6da93461-b80f-42ee-82fa-7bb702ad27b0
+2025-05-30 17:14:54,290 - INFO - Uploading /Users/volkanoluc/videos/2025/05/30/example.mp4...
+2025-05-30 17:15:00,298 - INFO - Waiting for encoding to complete...
+2025-05-30 17:15:00,298 - INFO - Request[GET]: https://sync.api.cloudconvert.com/v2/jobs/6da93461-b80f-42ee-82fa-7bb702ad27b0
+2025-05-30 17:15:00,298 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-05-30 17:15:00,575 - INFO - Response[200]: OK, Duration: 0.277203s.
+2025-05-30 17:15:00,576 - ERROR - Error encoding /Users/volkanoluc/videos/2025/05/30/example.mp4: Job failed with status: error
+2025-05-30 17:15:01,581 - INFO - Processed 0 files in /Users/volkanoluc/videos/2025/05/30
+2025-05-30 17:18:15,538 - INFO - Scanning folder: /Users/volkanoluc/videos/2025/05/30
+2025-05-30 17:18:15,538 - INFO - Found 1 video files to process
+2025-05-30 17:18:15,538 - INFO - Processing /Users/volkanoluc/videos/2025/05/30/example.mp4
+2025-05-30 17:18:15,538 - INFO - Starting encoding of /Users/volkanoluc/videos/2025/05/30/example.mp4
+2025-05-30 17:18:15,538 - INFO - Request[POST]: https://api.cloudconvert.com/v2/jobs
+2025-05-30 17:18:15,538 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-05-30 17:18:15,722 - INFO - Response[201]: Created, Duration: 0.183470s.
+2025-05-30 17:18:15,722 - INFO - Created CloudConvert job: 5bf9e7b7-356c-4dba-9938-664a92d5f5f0
+2025-05-30 17:18:15,722 - INFO - Uploading /Users/volkanoluc/videos/2025/05/30/example.mp4...
+2025-05-30 17:18:25,459 - INFO - Waiting for encoding to complete...
+2025-05-30 17:18:25,460 - INFO - Request[GET]: https://sync.api.cloudconvert.com/v2/jobs/5bf9e7b7-356c-4dba-9938-664a92d5f5f0
+2025-05-30 17:18:25,460 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-05-30 17:18:25,943 - INFO - Response[200]: OK, Duration: 0.483079s.
+2025-05-30 17:18:25,943 - ERROR - Error encoding /Users/volkanoluc/videos/2025/05/30/example.mp4: Job failed with status: error
+2025-05-30 17:18:26,949 - INFO - Processed 0 files in /Users/volkanoluc/videos/2025/05/30
+2025-05-30 17:21:00,028 - INFO - Scanning folder: /Users/volkanoluc/videos/2025/05/30
+2025-05-30 17:21:00,029 - INFO - Found 1 video files to process
+2025-05-30 17:21:00,029 - INFO - Processing /Users/volkanoluc/videos/2025/05/30/example.mp4
+2025-05-30 17:21:00,029 - INFO - Starting encoding of /Users/volkanoluc/videos/2025/05/30/example.mp4
+2025-05-30 17:21:00,029 - INFO - Request[POST]: https://api.cloudconvert.com/v2/jobs
+2025-05-30 17:21:00,029 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-05-30 17:21:00,318 - INFO - Response[201]: Created, Duration: 0.288401s.
+2025-05-30 17:21:00,318 - INFO - Created CloudConvert job: c72c9007-2cbb-40a5-b5b6-954cd71de130
+2025-05-30 17:21:00,318 - INFO - Uploading /Users/volkanoluc/videos/2025/05/30/example.mp4...
+2025-05-30 17:21:10,047 - INFO - Waiting for encoding to complete...
+2025-05-30 17:21:10,048 - INFO - Request[GET]: https://sync.api.cloudconvert.com/v2/jobs/c72c9007-2cbb-40a5-b5b6-954cd71de130
+2025-05-30 17:21:10,048 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-05-30 17:21:10,385 - INFO - Response[200]: OK, Duration: 0.336597s.
+2025-05-30 17:21:10,385 - ERROR - Error encoding /Users/volkanoluc/videos/2025/05/30/example.mp4: Job failed with status: error
+2025-05-30 17:21:11,389 - INFO - Processed 0 files in /Users/volkanoluc/videos/2025/05/30
+2025-05-30 17:21:43,120 - INFO - Scanning folder: /Users/volkanoluc/videos/2025/05/30
+2025-05-30 17:21:43,121 - INFO - Found 1 video files to process
+2025-05-30 17:21:43,121 - INFO - Processing /Users/volkanoluc/videos/2025/05/30/example.mp4
+2025-05-30 17:21:43,121 - INFO - Starting encoding of /Users/volkanoluc/videos/2025/05/30/example.mp4
+2025-05-30 17:21:43,122 - INFO - Request[POST]: https://api.cloudconvert.com/v2/jobs
+2025-05-30 17:21:43,122 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-05-30 17:21:43,382 - INFO - Response[201]: Created, Duration: 0.259643s.
+2025-05-30 17:21:43,383 - INFO - Created CloudConvert job: c26f3088-0554-4ee0-a60f-0c0fc8e2b6f4
+2025-05-30 17:21:43,383 - INFO - Uploading /Users/volkanoluc/videos/2025/05/30/example.mp4...
+2025-05-30 17:21:53,803 - INFO - Waiting for encoding to complete...
+2025-05-30 17:21:53,804 - INFO - Request[GET]: https://sync.api.cloudconvert.com/v2/jobs/c26f3088-0554-4ee0-a60f-0c0fc8e2b6f4
+2025-05-30 17:21:53,804 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-05-30 17:21:54,075 - INFO - Response[200]: OK, Duration: 0.270664s.
+2025-05-30 17:21:54,075 - ERROR - Job failed with status: error
+2025-05-30 17:21:54,075 - ERROR - Job details: {'id': 'c26f3088-0554-4ee0-a60f-0c0fc8e2b6f4', 'tag': None, 'status': 'error', 'created_at': '2025-05-30T16:21:43+00:00', 'started_at': '2025-05-30T16:21:53+00:00', 'ended_at': '2025-05-30T16:21:53+00:00', 'tasks': [{'id': '89452111-5b9e-4c50-965a-ec4ed9ed5ba3', 'name': 'convert-video', 'job_id': 'c26f3088-0554-4ee0-a60f-0c0fc8e2b6f4', 'status': 'error', 'credits': 0, 'code': 'INVALID_OPTION', 'message': 'The selected video codec is invalid.', 'percent': 100, 'operation': 'convert', 'engine': None, 'engine_version': None, 'result': None, 'created_at': '2025-05-30T16:21:43+00:00', 'started_at': '2025-05-30T16:21:53+00:00', 'ended_at': '2025-05-30T16:21:53+00:00', 'retry_of_task_id': None, 'copy_of_task_id': None, 'user_id': 72080087, 'priority': 10, 'host_name': None, 'storage': None, 'region': 'eu-central', 'depends_on_task_ids': ['117ee52e-0d52-4742-b5bd-891b35c1839e'], 'links': {'self': 'https://api.cloudconvert.com/v2/tasks/89452111-5b9e-4c50-965a-ec4ed9ed5ba3'}}, {'id': '9b3e56b6-1e84-466f-a1fe-42652bb52287', 'name': 'export-video', 'job_id': 'c26f3088-0554-4ee0-a60f-0c0fc8e2b6f4', 'status': 'error', 'credits': 0, 'code': 'INPUT_TASK_FAILED', 'message': 'Input task has failed', 'percent': 100, 'operation': 'export/url', 'result': None, 'created_at': '2025-05-30T16:21:43+00:00', 'started_at': '2025-05-30T16:21:53+00:00', 'ended_at': '2025-05-30T16:21:53+00:00', 'retry_of_task_id': None, 'copy_of_task_id': None, 'user_id': 72080087, 'priority': 10, 'host_name': None, 'storage': None, 'region': 'eu-central', 'depends_on_task_ids': ['89452111-5b9e-4c50-965a-ec4ed9ed5ba3'], 'links': {'self': 'https://api.cloudconvert.com/v2/tasks/9b3e56b6-1e84-466f-a1fe-42652bb52287'}}, {'id': '117ee52e-0d52-4742-b5bd-891b35c1839e', 'name': 'import-video', 'job_id': 'c26f3088-0554-4ee0-a60f-0c0fc8e2b6f4', 'status': 'finished', 'credits': 0, 'code': None, 'message': None, 'percent': 100, 'operation': 'import/upload', 'result': {'files': [{'filename': 'example.mp4', 'size': 17164443}]}, 'created_at': '2025-05-30T16:21:43+00:00', 'started_at': '2025-05-30T16:21:53+00:00', 'ended_at': '2025-05-30T16:21:53+00:00', 'retry_of_task_id': None, 'copy_of_task_id': None, 'user_id': 72080087, 'priority': 10, 'host_name': None, 'storage': 'ceph-fra', 'region': 'eu-central', 'depends_on_task_ids': [], 'links': {'self': 'https://api.cloudconvert.com/v2/tasks/117ee52e-0d52-4742-b5bd-891b35c1839e'}}], 'links': {'self': 'https://api.cloudconvert.com/v2/jobs/c26f3088-0554-4ee0-a60f-0c0fc8e2b6f4'}}
+2025-05-30 17:21:54,075 - ERROR - Task 'convert-video' failed: The selected video codec is invalid.
+2025-05-30 17:21:54,076 - ERROR - Task 'export-video' failed: Input task has failed
+2025-05-30 17:21:54,076 - ERROR - Error encoding /Users/volkanoluc/videos/2025/05/30/example.mp4: Job failed with status: error
+2025-05-30 17:21:55,081 - INFO - Processed 0 files in /Users/volkanoluc/videos/2025/05/30
+2025-05-30 17:22:19,956 - INFO - Scanning folder: /Users/volkanoluc/videos/2025/05/30
+2025-05-30 17:22:19,957 - INFO - Found 1 video files to process
+2025-05-30 17:22:19,957 - INFO - Processing /Users/volkanoluc/videos/2025/05/30/example.mp4
+2025-05-30 17:22:19,957 - INFO - Starting encoding of /Users/volkanoluc/videos/2025/05/30/example.mp4
+2025-05-30 17:22:19,957 - INFO - Request[POST]: https://api.cloudconvert.com/v2/jobs
+2025-05-30 17:22:19,957 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-05-30 17:22:20,207 - INFO - Response[201]: Created, Duration: 0.249922s.
+2025-05-30 17:22:20,207 - INFO - Created CloudConvert job: 4b4b7a0e-c5f6-4079-9bba-1360cd41b5b2
+2025-05-30 17:22:20,207 - INFO - Uploading /Users/volkanoluc/videos/2025/05/30/example.mp4...
+2025-05-30 17:22:27,059 - INFO - Waiting for encoding to complete...
+2025-05-30 17:22:27,060 - INFO - Request[GET]: https://sync.api.cloudconvert.com/v2/jobs/4b4b7a0e-c5f6-4079-9bba-1360cd41b5b2
+2025-05-30 17:22:27,060 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-05-30 17:22:50,190 - INFO - Response[200]: OK, Duration: 23.130445s.
+2025-05-30 17:22:50,191 - INFO - Downloading encoded file to /tmp/cloudconvert_temp/encoded_example.mp4...
+2025-05-30 17:22:51,192 - INFO - Encoding completed. Original: 17164443 bytes, Encoded: 5554038 bytes, Time: 31.24s
+2025-05-30 17:22:51,195 - INFO - Successfully replaced /Users/volkanoluc/videos/2025/05/30/example.mp4
+2025-05-30 17:22:52,200 - INFO - Processed 1 files in /Users/volkanoluc/videos/2025/05/30
