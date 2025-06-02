@@ -1,0 +1,53 @@
+{
+  "encoded_files": [
+    {
+      "filename": "example.mp4",
+      "path": "/Users/volkanoluc/videos/2025/05/30/example.mp4",
+      "encoded_date": "2025-06-02T12:34:35.222780",
+      "original_size": 5452166,
+      "encoded_size": 5393127
+    },
+    {
+      "filename": "example2.mp4",
+      "path": "/Users/volkanoluc/videos/2025/05/30/example2.mp4",
+      "encoded_date": "2025-06-02T12:38:20.760164",
+      "original_size": 5393127,
+      "encoded_size": 5337377
+    },
+    {
+      "filename": "example2.mp4",
+      "path": "/Users/volkanoluc/videos/2025/05/31/example2.mp4",
+      "encoded_date": "2025-06-02T12:38:46.003916",
+      "original_size": 5393127,
+      "encoded_size": 5337377
+    },
+    {
+      "filename": "example4.mp4",
+      "path": "/Users/volkanoluc/videos/2025/05/30/example4.mp4",
+      "encoded_date": "2025-06-02T12:40:41.641558",
+      "original_size": 5337377,
+      "encoded_size": 5377451
+    },
+    {
+      "filename": "example5.mp4",
+      "path": "/Users/volkanoluc/videos/2025/05/30/example5.mp4",
+      "encoded_date": "2025-06-02T12:40:42.062728",
+      "original_size": 5337377,
+      "encoded_size": 5377451
+    },
+    {
+      "filename": "example6.mp4",
+      "path": "/Users/volkanoluc/videos/2025/05/30/example6.mp4",
+      "encoded_date": "2025-06-02T12:40:42.516248",
+      "original_size": 5337377,
+      "encoded_size": 5377451
+    },
+    {
+      "filename": "example7.mp4",
+      "path": "/Users/volkanoluc/videos/2025/05/30/example7.mp4",
+      "encoded_date": "2025-06-02T12:41:04.837965",
+      "original_size": 5337377,
+      "encoded_size": 5377451
+    }
+  ]
+}
