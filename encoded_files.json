@@ -48,6 +48,20 @@
       "encoded_date": "2025-06-02T12:41:04.837965",
       "original_size": 5337377,
       "encoded_size": 5377451
+    },
+    {
+      "filename": "example8.mp4",
+      "path": "/Users/volkanoluc/videos/2025/06/30/example8.mp4",
+      "encoded_date": "2025-06-02T12:44:12.979141",
+      "original_size": 5377451,
+      "encoded_size": 5363840
+    },
+    {
+      "filename": "example9.mp4",
+      "path": "/Users/volkanoluc/videos/2025/06/31/example9.mp4",
+      "encoded_date": "2025-06-02T12:44:36.864490",
+      "original_size": 5337377,
+      "encoded_size": 5377451
     }
   ]
 }

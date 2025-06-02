@@ -223,3 +223,57 @@
 2025-06-02 12:41:04,838 - INFO - Processing /Users/volkanoluc/videos/2025/05/31/example2.mp4
 2025-06-02 12:41:04,839 - INFO - File already encoded, skipping: /Users/volkanoluc/videos/2025/05/31/example2.mp4
 2025-06-02 12:41:04,839 - INFO - Processed 0 files in /Users/volkanoluc/videos/2025/05/31
+2025-06-02 12:43:49,498 - INFO - Scanning folder: /Users/volkanoluc/videos/2025/05/30
+2025-06-02 12:43:49,498 - INFO - Found 4 video files to process
+2025-06-02 12:43:49,498 - INFO - Starting concurrent processing of 4 videos with max 3 concurrent jobs
+2025-06-02 12:43:49,498 - INFO - Processing /Users/volkanoluc/videos/2025/05/30/example5.mp4
+2025-06-02 12:43:49,498 - INFO - File already encoded, skipping: /Users/volkanoluc/videos/2025/05/30/example5.mp4
+2025-06-02 12:43:49,498 - INFO - Processing /Users/volkanoluc/videos/2025/05/30/example4.mp4
+2025-06-02 12:43:49,498 - INFO - File already encoded, skipping: /Users/volkanoluc/videos/2025/05/30/example4.mp4
+2025-06-02 12:43:49,498 - INFO - Processing /Users/volkanoluc/videos/2025/05/30/example6.mp4
+2025-06-02 12:43:49,498 - INFO - File already encoded, skipping: /Users/volkanoluc/videos/2025/05/30/example6.mp4
+2025-06-02 12:43:49,498 - INFO - Processing /Users/volkanoluc/videos/2025/05/30/example7.mp4
+2025-06-02 12:43:49,498 - INFO - File already encoded, skipping: /Users/volkanoluc/videos/2025/05/30/example7.mp4
+2025-06-02 12:43:49,498 - INFO - Processed 0 files in /Users/volkanoluc/videos/2025/05/30
+2025-06-02 12:43:49,498 - INFO - Scanning folder: /Users/volkanoluc/videos/2025/05/31
+2025-06-02 12:43:49,498 - INFO - Found 1 video files to process
+2025-06-02 12:43:49,498 - INFO - Starting concurrent processing of 1 videos with max 3 concurrent jobs
+2025-06-02 12:43:49,499 - INFO - Processing /Users/volkanoluc/videos/2025/05/31/example2.mp4
+2025-06-02 12:43:49,499 - INFO - File already encoded, skipping: /Users/volkanoluc/videos/2025/05/31/example2.mp4
+2025-06-02 12:43:49,499 - INFO - Processed 0 files in /Users/volkanoluc/videos/2025/05/31
+2025-06-02 12:43:49,499 - INFO - Scanning folder: /Users/volkanoluc/videos/2025/06/30
+2025-06-02 12:43:49,499 - INFO - Found 1 video files to process
+2025-06-02 12:43:49,499 - INFO - Starting concurrent processing of 1 videos with max 3 concurrent jobs
+2025-06-02 12:43:49,499 - INFO - Processing /Users/volkanoluc/videos/2025/06/30/example8.mp4
+2025-06-02 12:43:49,499 - INFO - Starting encoding of /Users/volkanoluc/videos/2025/06/30/example8.mp4
+2025-06-02 12:43:49,499 - INFO - Request[POST]: https://api.cloudconvert.com/v2/jobs
+2025-06-02 12:43:49,499 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-06-02 12:43:49,809 - INFO - Response[201]: Created, Duration: 0.310188s.
+2025-06-02 12:43:49,810 - INFO - Created CloudConvert job: 27eb3e58-bd7d-4622-baa7-9f27b30040ff
+2025-06-02 12:43:49,810 - INFO - Uploading /Users/volkanoluc/videos/2025/06/30/example8.mp4...
+2025-06-02 12:43:50,804 - INFO - Waiting for encoding to complete...
+2025-06-02 12:43:50,804 - INFO - Request[GET]: https://sync.api.cloudconvert.com/v2/jobs/27eb3e58-bd7d-4622-baa7-9f27b30040ff
+2025-06-02 12:43:50,804 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-06-02 12:44:11,666 - INFO - Response[200]: OK, Duration: 20.862475s.
+2025-06-02 12:44:11,669 - INFO - Downloading encoded file to /tmp/cloudconvert_temp/encoded_example8.mp4...
+2025-06-02 12:44:12,975 - INFO - Encoding completed. Original: 5377451 bytes, Encoded: 5363840 bytes, Time: 23.48s
+2025-06-02 12:44:12,978 - INFO - Successfully replaced /Users/volkanoluc/videos/2025/06/30/example8.mp4
+2025-06-02 12:44:12,980 - INFO - Processed 1 files in /Users/volkanoluc/videos/2025/06/30
+2025-06-02 12:44:12,981 - INFO - Scanning folder: /Users/volkanoluc/videos/2025/06/31
+2025-06-02 12:44:12,981 - INFO - Found 1 video files to process
+2025-06-02 12:44:12,981 - INFO - Starting concurrent processing of 1 videos with max 3 concurrent jobs
+2025-06-02 12:44:12,982 - INFO - Processing /Users/volkanoluc/videos/2025/06/31/example9.mp4
+2025-06-02 12:44:12,982 - INFO - Starting encoding of /Users/volkanoluc/videos/2025/06/31/example9.mp4
+2025-06-02 12:44:12,983 - INFO - Request[POST]: https://api.cloudconvert.com/v2/jobs
+2025-06-02 12:44:12,983 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-06-02 12:44:13,274 - INFO - Response[201]: Created, Duration: 0.291102s.
+2025-06-02 12:44:13,275 - INFO - Created CloudConvert job: 11886470-93be-4fcb-ba74-eca3283843d0
+2025-06-02 12:44:13,276 - INFO - Uploading /Users/volkanoluc/videos/2025/06/31/example9.mp4...
+2025-06-02 12:44:14,534 - INFO - Waiting for encoding to complete...
+2025-06-02 12:44:14,534 - INFO - Request[GET]: https://sync.api.cloudconvert.com/v2/jobs/11886470-93be-4fcb-ba74-eca3283843d0
+2025-06-02 12:44:14,534 - INFO - Not logging full request/response headers and body in live mode for compliance
+2025-06-02 12:44:35,239 - INFO - Response[200]: OK, Duration: 20.704199s.
+2025-06-02 12:44:35,239 - INFO - Downloading encoded file to /tmp/cloudconvert_temp/encoded_example9.mp4...
+2025-06-02 12:44:36,862 - INFO - Encoding completed. Original: 5337377 bytes, Encoded: 5377451 bytes, Time: 23.88s
+2025-06-02 12:44:36,864 - INFO - Successfully replaced /Users/volkanoluc/videos/2025/06/31/example9.mp4
+2025-06-02 12:44:36,865 - INFO - Processed 1 files in /Users/volkanoluc/videos/2025/06/31
