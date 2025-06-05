@@ -19,6 +19,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import List, Dict, Optional
 import cloudconvert
+import subprocess
 
 # Configuration
 CLOUDCONVERT_API_KEY = os.getenv('CLOUDCONVERT_API_KEY')
@@ -31,13 +32,49 @@ TEMP_DIR = '/tmp/cloudconvert_temp'
 # Async configuration
 MAX_CONCURRENT_JOBS = 3  # Aynı anda maximum kaç video encode edilsin
 
-# Video encoding settings
+# Video encoding settings for file size reduction
 ENCODING_SETTINGS = {
     'output_format': 'mp4',
-    'video_codec': 'h264',
+    'video_codec': 'h265',  # H.265 daha iyi compression
     'audio_codec': 'aac',
-    'quality': 'medium',  # low, medium, high, very_high
-    'preset': 'medium',   # ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslow
+    'crf': 28,  # H.265 için optimal CRF
+    'preset': 'slow',  # slow preset = better compression
+    'video_bitrate': '600k',  # H.265 ile daha düşük bitrate yeterli
+    'audio_bitrate': '96k',  # Lower audio bitrate
+    'profile': 'main',  # H.265 main profile
+    'max_width': 1280,  # Limit maximum width (downscale if larger)
+    'max_height': 720,  # Limit maximum height (720p max)
+}
+
+# Extreme compression settings (use if videos are still too large)
+EXTREME_ENCODING_SETTINGS = {
+    'output_format': 'mp4',
+    'video_codec': 'h265',  # H.265 for extreme compression
+    'audio_codec': 'aac',
+    'crf': 32,  # Higher CRF for H.265
+    'preset': 'veryslow',  # Best compression
+    'video_bitrate': '300k',  # Very low bitrate with H.265
+    'audio_bitrate': '64k',  # Very low audio bitrate
+    'profile': 'main',
+    'max_width': 854,  # 480p width
+    'max_height': 480,  # 480p height
+}
+
+# Toggle between normal and extreme compression
+USE_EXTREME_COMPRESSION = False  # Set to True for maximum compression
+
+# Toggle between cloudconvert and local ffmpeg
+USE_LOCAL_FFMPEG = True  # Set to True to use local ffmpeg instead of CloudConvert
+
+# FFmpeg settings for local encoding
+FFMPEG_SETTINGS = {
+    'video_codec': 'libx265',  # H.265 - çok daha iyi compression
+    'crf': 30,  # Daha agresif compression, H.265 ile hala iyi kalite
+    'preset': 'slow',  # Daha iyi compression için slow preset
+    'audio_codec': 'aac',
+    'audio_bitrate': '96k',  # Daha düşük audio bitrate
+    'max_width': 1280,  # Sadece referans için (kullanılmıyor)
+    'max_height': 720,  # Sadece referans için (kullanılmıyor)
 }
 
 class VideoEncoder:
@@ -118,6 +155,43 @@ class VideoEncoder:
         
         return video_files
     
+    def should_encode_video(self, file_path: str) -> bool:
+        """Check if video should be encoded based on file size and properties"""
+        try:
+            file_size = self.get_file_size(file_path)
+            
+            # Skip very small files (probably already optimized)
+            min_size_mb = 10  # 10MB'dan küçük dosyaları skip et
+            if file_size < (min_size_mb * 1024 * 1024):
+                self.logger.info(f"Skipping small file ({file_size / (1024*1024):.1f}MB): {file_path}")
+                return False
+            
+            # Skip very large files that might be high quality content
+            max_size_mb = 500  # 500MB'dan büyük dosyaları skip et (manual review gerekebilir)
+            if file_size > (max_size_mb * 1024 * 1024):
+                self.logger.info(f"Skipping very large file ({file_size / (1024*1024):.1f}MB): {file_path}")
+                return False
+            
+            # Check if file extension suggests it's already optimized
+            filename = os.path.basename(file_path).lower()
+            
+            # Skip files that are likely already compressed
+            skip_patterns = [
+                '_compressed', '_encoded', '_optimized', '_small', 
+                '_mobile', '_web', '_720p', '_480p'
+            ]
+            
+            for pattern in skip_patterns:
+                if pattern in filename:
+                    self.logger.info(f"Skipping pre-optimized file: {file_path}")
+                    return False
+            
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"Error checking if should encode {file_path}: {e}")
+            return False
+    
     def encode_video(self, input_file_path: str) -> Optional[str]:
         """
         Encode a single video file using CloudConvert
@@ -132,6 +206,9 @@ class VideoEncoder:
             # Get original file size
             original_size = self.get_file_size(input_file_path)
             
+            # Choose encoding settings
+            settings = EXTREME_ENCODING_SETTINGS if USE_EXTREME_COMPRESSION else ENCODING_SETTINGS
+            
             # Create CloudConvert job
             job_payload = {
                 "tasks": {
@@ -141,12 +218,18 @@ class VideoEncoder:
                     "convert-video": {
                         "operation": "convert",
                         "input": "import-video",
-                        "output_format": ENCODING_SETTINGS['output_format'],
+                        "output_format": settings['output_format'],
                         "options": {
-                            "video_codec": ENCODING_SETTINGS['video_codec'],
-                            "audio_codec": ENCODING_SETTINGS['audio_codec'],
-                            "quality": ENCODING_SETTINGS['quality'],
-                            "preset": ENCODING_SETTINGS['preset']
+                            "video_codec": settings['video_codec'],
+                            "audio_codec": settings['audio_codec'],
+                            "crf": settings['crf'],
+                            "preset": settings['preset'],
+                            "video_bitrate": settings['video_bitrate'],
+                            "audio_bitrate": settings['audio_bitrate'],
+                            "profile": settings['profile'],
+                            "width": settings['max_width'],
+                            "height": settings['max_height'],
+                            "fit": "scale"  # Scale down if needed, keep aspect ratio
                         }
                     },
                     "export-video": {
@@ -255,9 +338,142 @@ class VideoEncoder:
             
             return None
     
-    def replace_original_file(self, original_path: str, encoded_path: str) -> bool:
-        """Replace original file with encoded version"""
+    def encode_video_ffmpeg(self, input_file_path: str) -> Optional[str]:
+        """
+        Encode video using local FFmpeg (much faster and better control)
+        Returns the path to the encoded file or None if failed
+        """
+        start_time = time.time()
+        
         try:
+            self.logger.info(f"Starting FFmpeg encoding of {input_file_path}")
+            
+            # Get original file size
+            original_size = self.get_file_size(input_file_path)
+            
+            # Generate output filename
+            base_name = os.path.splitext(os.path.basename(input_file_path))[0]
+            temp_output_path = os.path.join(TEMP_DIR, f"encoded_{base_name}.mp4")
+            
+            # Build FFmpeg command
+            settings = FFMPEG_SETTINGS
+            cmd = [
+                'ffmpeg',
+                '-i', input_file_path,
+                '-c:v', settings['video_codec'],      # Video codec
+                '-crf', str(settings['crf']),         # Quality
+                '-preset', settings['preset'],        # Encoding speed
+                '-c:a', settings['audio_codec'],      # Audio codec
+                '-b:a', settings['audio_bitrate'],    # Audio bitrate
+                '-movflags', '+faststart',            # Optimize for streaming
+                '-y',                                 # Overwrite output file
+                temp_output_path
+            ]
+            
+            # Add scaling only if needed (check if video is larger than max resolution)
+            # We'll add this as a separate filter if needed
+            
+            self.logger.info(f"FFmpeg command: {' '.join(cmd)}")
+            
+            # Run FFmpeg
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                timeout=180  # 3 minute timeout
+            )
+            
+            if result.returncode != 0:
+                raise Exception(f"FFmpeg failed: {result.stderr}")
+            
+            # Check if output file exists and has reasonable size
+            if not os.path.exists(temp_output_path):
+                raise Exception("Output file was not created")
+            
+            encoded_size = self.get_file_size(temp_output_path)
+            if encoded_size == 0:
+                raise Exception("Output file is empty")
+            
+            processing_time = time.time() - start_time
+            compression_ratio = ((original_size - encoded_size) / original_size) * 100
+            
+            self.logger.info(
+                f"FFmpeg encoding completed. Original: {original_size} bytes, "
+                f"Encoded: {encoded_size} bytes ({compression_ratio:.1f}% reduction), "
+                f"Time: {processing_time:.2f}s"
+            )
+            
+            # Log to CSV
+            self.log_to_csv(
+                os.path.basename(input_file_path),
+                original_size,
+                encoded_size,
+                'ffmpeg_success',
+                processing_time
+            )
+            
+            return temp_output_path
+            
+        except subprocess.TimeoutExpired:
+            processing_time = time.time() - start_time
+            self.logger.error(f"FFmpeg encoding timeout for {input_file_path}")
+            self.log_to_csv(
+                os.path.basename(input_file_path),
+                self.get_file_size(input_file_path),
+                0,
+                'ffmpeg_timeout',
+                processing_time
+            )
+            # Timeout is a critical error - stop processing
+            raise Exception(f"FFmpeg timeout after 3 minutes for {input_file_path}")
+            
+        except Exception as e:
+            processing_time = time.time() - start_time
+            self.logger.error(f"FFmpeg encoding error for {input_file_path}: {e}")
+            
+            # Log failed attempt to CSV
+            original_size = self.get_file_size(input_file_path)
+            self.log_to_csv(
+                os.path.basename(input_file_path),
+                original_size,
+                0,
+                f'ffmpeg_failed: {str(e)}',
+                processing_time
+            )
+            
+            # Clean up temp file if it exists
+            if 'temp_output_path' in locals() and os.path.exists(temp_output_path):
+                try:
+                    os.remove(temp_output_path)
+                except Exception:
+                    pass
+            
+            return None
+    
+    def replace_original_file(self, original_path: str, encoded_path: str) -> bool:
+        """Replace original file with encoded version only if it's smaller"""
+        try:
+            original_size = self.get_file_size(original_path)
+            encoded_size = self.get_file_size(encoded_path)
+            
+            # Check if encoded file is actually smaller
+            size_reduction_percent = ((original_size - encoded_size) / original_size) * 100
+            
+            if encoded_size >= original_size:
+                self.logger.warning(
+                    f"Encoded file is larger than original! "
+                    f"Original: {original_size} bytes, Encoded: {encoded_size} bytes. "
+                    f"Keeping original file."
+                )
+                # Remove the encoded file since it's not useful
+                os.remove(encoded_path)
+                return False
+            
+            self.logger.info(
+                f"File size reduced by {size_reduction_percent:.1f}% "
+                f"({original_size} → {encoded_size} bytes)"
+            )
+            
             # Create backup of original (optional)
             backup_path = f"{original_path}.backup"
             os.rename(original_path, backup_path)
@@ -309,9 +525,28 @@ class VideoEncoder:
         for video_file in video_files:
             self.logger.info(f"Processing {video_file}")
             
-            encoded_file = self.encode_video(video_file)
+            if self.is_file_already_encoded(video_file):
+                continue
+            
+            # Check if video should be encoded
+            if not self.should_encode_video(video_file):
+                continue
+            
+            # Get original file size before encoding
+            original_size = self.get_file_size(video_file)
+            
+            # Choose encoding method
+            if USE_LOCAL_FFMPEG:
+                encoded_file = self.encode_video_ffmpeg(video_file)
+            else:
+                encoded_file = self.encode_video(video_file)
+                
             if encoded_file:
+                # Get encoded file size before replacement
+                encoded_size = self.get_file_size(encoded_file)
+                
                 if self.replace_original_file(video_file, encoded_file):
+                    self.add_encoded_file(video_file, original_size, encoded_size)
                     processed_count += 1
                 else:
                     # Clean up temp file if replacement failed
@@ -375,6 +610,30 @@ class VideoEncoder:
                     total_processed += processed
         
         return total_processed
+
+    def is_file_already_encoded(self, file_path: str) -> bool:
+        """Check if file has already been encoded"""
+        for encoded_file in self.encoded_files.get("encoded_files", []):
+            if encoded_file.get("path") == file_path:
+                self.logger.info(f"File already encoded, skipping: {file_path}")
+                return True
+        return False
+    
+    def add_encoded_file(self, file_path: str, original_size: int, encoded_size: int):
+        """Add successfully encoded file to tracking"""
+        encoded_file_info = {
+            "filename": os.path.basename(file_path),
+            "path": file_path,
+            "encoded_date": datetime.now().isoformat(),
+            "original_size": original_size,
+            "encoded_size": encoded_size
+        }
+        
+        if "encoded_files" not in self.encoded_files:
+            self.encoded_files["encoded_files"] = []
+        
+        self.encoded_files["encoded_files"].append(encoded_file_info)
+        self.save_encoded_files()
 
 class AsyncVideoEncoder:
     def __init__(self):
@@ -463,6 +722,43 @@ class AsyncVideoEncoder:
         
         return video_files
     
+    def should_encode_video(self, file_path: str) -> bool:
+        """Check if video should be encoded based on file size and properties"""
+        try:
+            file_size = self.get_file_size(file_path)
+            
+            # Skip very small files (probably already optimized)
+            min_size_mb = 10  # 10MB'dan küçük dosyaları skip et
+            if file_size < (min_size_mb * 1024 * 1024):
+                self.logger.info(f"Skipping small file ({file_size / (1024*1024):.1f}MB): {file_path}")
+                return False
+            
+            # Skip very large files that might be high quality content
+            max_size_mb = 500  # 500MB'dan büyük dosyaları skip et (manual review gerekebilir)
+            if file_size > (max_size_mb * 1024 * 1024):
+                self.logger.info(f"Skipping very large file ({file_size / (1024*1024):.1f}MB): {file_path}")
+                return False
+            
+            # Check if file extension suggests it's already optimized
+            filename = os.path.basename(file_path).lower()
+            
+            # Skip files that are likely already compressed
+            skip_patterns = [
+                '_compressed', '_encoded', '_optimized', '_small', 
+                '_mobile', '_web', '_720p', '_480p'
+            ]
+            
+            for pattern in skip_patterns:
+                if pattern in filename:
+                    self.logger.info(f"Skipping pre-optimized file: {file_path}")
+                    return False
+            
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"Error checking if should encode {file_path}: {e}")
+            return False
+    
     def encode_video(self, input_file_path: str) -> Optional[str]:
         """
         Encode a single video file using CloudConvert
@@ -477,6 +773,9 @@ class AsyncVideoEncoder:
             # Get original file size
             original_size = self.get_file_size(input_file_path)
             
+            # Choose encoding settings
+            settings = EXTREME_ENCODING_SETTINGS if USE_EXTREME_COMPRESSION else ENCODING_SETTINGS
+            
             # Create CloudConvert job
             job_payload = {
                 "tasks": {
@@ -486,12 +785,18 @@ class AsyncVideoEncoder:
                     "convert-video": {
                         "operation": "convert",
                         "input": "import-video",
-                        "output_format": ENCODING_SETTINGS['output_format'],
+                        "output_format": settings['output_format'],
                         "options": {
-                            "video_codec": ENCODING_SETTINGS['video_codec'],
-                            "audio_codec": ENCODING_SETTINGS['audio_codec'],
-                            "quality": ENCODING_SETTINGS['quality'],
-                            "preset": ENCODING_SETTINGS['preset']
+                            "video_codec": settings['video_codec'],
+                            "audio_codec": settings['audio_codec'],
+                            "crf": settings['crf'],
+                            "preset": settings['preset'],
+                            "video_bitrate": settings['video_bitrate'],
+                            "audio_bitrate": settings['audio_bitrate'],
+                            "profile": settings['profile'],
+                            "width": settings['max_width'],
+                            "height": settings['max_height'],
+                            "fit": "scale"  # Scale down if needed, keep aspect ratio
                         }
                     },
                     "export-video": {
@@ -600,9 +905,142 @@ class AsyncVideoEncoder:
             
             return None
     
-    def replace_original_file(self, original_path: str, encoded_path: str) -> bool:
-        """Replace original file with encoded version"""
+    def encode_video_ffmpeg(self, input_file_path: str) -> Optional[str]:
+        """
+        Encode video using local FFmpeg (much faster and better control)
+        Returns the path to the encoded file or None if failed
+        """
+        start_time = time.time()
+        
         try:
+            self.logger.info(f"Starting FFmpeg encoding of {input_file_path}")
+            
+            # Get original file size
+            original_size = self.get_file_size(input_file_path)
+            
+            # Generate output filename
+            base_name = os.path.splitext(os.path.basename(input_file_path))[0]
+            temp_output_path = os.path.join(TEMP_DIR, f"encoded_{base_name}.mp4")
+            
+            # Build FFmpeg command
+            settings = FFMPEG_SETTINGS
+            cmd = [
+                'ffmpeg',
+                '-i', input_file_path,
+                '-c:v', settings['video_codec'],      # Video codec
+                '-crf', str(settings['crf']),         # Quality
+                '-preset', settings['preset'],        # Encoding speed
+                '-c:a', settings['audio_codec'],      # Audio codec
+                '-b:a', settings['audio_bitrate'],    # Audio bitrate
+                '-movflags', '+faststart',            # Optimize for streaming
+                '-y',                                 # Overwrite output file
+                temp_output_path
+            ]
+            
+            # Add scaling only if needed (check if video is larger than max resolution)
+            # We'll add this as a separate filter if needed
+            
+            self.logger.info(f"FFmpeg command: {' '.join(cmd)}")
+            
+            # Run FFmpeg
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                timeout=180  # 3 minute timeout
+            )
+            
+            if result.returncode != 0:
+                raise Exception(f"FFmpeg failed: {result.stderr}")
+            
+            # Check if output file exists and has reasonable size
+            if not os.path.exists(temp_output_path):
+                raise Exception("Output file was not created")
+            
+            encoded_size = self.get_file_size(temp_output_path)
+            if encoded_size == 0:
+                raise Exception("Output file is empty")
+            
+            processing_time = time.time() - start_time
+            compression_ratio = ((original_size - encoded_size) / original_size) * 100
+            
+            self.logger.info(
+                f"FFmpeg encoding completed. Original: {original_size} bytes, "
+                f"Encoded: {encoded_size} bytes ({compression_ratio:.1f}% reduction), "
+                f"Time: {processing_time:.2f}s"
+            )
+            
+            # Log to CSV
+            self.log_to_csv(
+                os.path.basename(input_file_path),
+                original_size,
+                encoded_size,
+                'ffmpeg_success',
+                processing_time
+            )
+            
+            return temp_output_path
+            
+        except subprocess.TimeoutExpired:
+            processing_time = time.time() - start_time
+            self.logger.error(f"FFmpeg encoding timeout for {input_file_path}")
+            self.log_to_csv(
+                os.path.basename(input_file_path),
+                self.get_file_size(input_file_path),
+                0,
+                'ffmpeg_timeout',
+                processing_time
+            )
+            # Timeout is a critical error - stop processing
+            raise Exception(f"FFmpeg timeout after 3 minutes for {input_file_path}")
+            
+        except Exception as e:
+            processing_time = time.time() - start_time
+            self.logger.error(f"FFmpeg encoding error for {input_file_path}: {e}")
+            
+            # Log failed attempt to CSV
+            original_size = self.get_file_size(input_file_path)
+            self.log_to_csv(
+                os.path.basename(input_file_path),
+                original_size,
+                0,
+                f'ffmpeg_failed: {str(e)}',
+                processing_time
+            )
+            
+            # Clean up temp file if it exists
+            if 'temp_output_path' in locals() and os.path.exists(temp_output_path):
+                try:
+                    os.remove(temp_output_path)
+                except Exception:
+                    pass
+            
+            return None
+    
+    def replace_original_file(self, original_path: str, encoded_path: str) -> bool:
+        """Replace original file with encoded version only if it's smaller"""
+        try:
+            original_size = self.get_file_size(original_path)
+            encoded_size = self.get_file_size(encoded_path)
+            
+            # Check if encoded file is actually smaller
+            size_reduction_percent = ((original_size - encoded_size) / original_size) * 100
+            
+            if encoded_size >= original_size:
+                self.logger.warning(
+                    f"Encoded file is larger than original! "
+                    f"Original: {original_size} bytes, Encoded: {encoded_size} bytes. "
+                    f"Keeping original file."
+                )
+                # Remove the encoded file since it's not useful
+                os.remove(encoded_path)
+                return False
+            
+            self.logger.info(
+                f"File size reduced by {size_reduction_percent:.1f}% "
+                f"({original_size} → {encoded_size} bytes)"
+            )
+            
             # Create backup of original (optional)
             backup_path = f"{original_path}.backup"
             os.rename(original_path, backup_path)
@@ -654,9 +1092,28 @@ class AsyncVideoEncoder:
         for video_file in video_files:
             self.logger.info(f"Processing {video_file}")
             
-            encoded_file = self.encode_video(video_file)
+            if self.is_file_already_encoded(video_file):
+                continue
+            
+            # Check if video should be encoded
+            if not self.should_encode_video(video_file):
+                continue
+            
+            # Get original file size before encoding
+            original_size = self.get_file_size(video_file)
+            
+            # Choose encoding method
+            if USE_LOCAL_FFMPEG:
+                encoded_file = self.encode_video_ffmpeg(video_file)
+            else:
+                encoded_file = self.encode_video(video_file)
+                
             if encoded_file:
+                # Get encoded file size before replacement
+                encoded_size = self.get_file_size(encoded_file)
+                
                 if self.replace_original_file(video_file, encoded_file):
+                    self.add_encoded_file(video_file, original_size, encoded_size)
                     processed_count += 1
                 else:
                     # Clean up temp file if replacement failed
@@ -781,10 +1238,21 @@ class AsyncVideoEncoder:
         if self.is_file_already_encoded(video_file):
             return False
         
+        # Check if video should be encoded
+        if not self.should_encode_video(video_file):
+            return False
+        
         # Get original file size before encoding
         original_size = self.get_file_size(video_file)
         
-        encoded_file = await self.encode_video_async(video_file)
+        # Choose encoding method
+        if USE_LOCAL_FFMPEG:
+            # For FFmpeg, use thread pool since it's CPU bound
+            loop = asyncio.get_event_loop()
+            encoded_file = await loop.run_in_executor(self.executor, self.encode_video_ffmpeg, video_file)
+        else:
+            encoded_file = await self.encode_video_async(video_file)
+            
         if encoded_file:
             # Get encoded file size before replacement
             encoded_size = self.get_file_size(encoded_file)
@@ -948,8 +1416,13 @@ async def main():
             sys.exit(1)
             
     except Exception as e:
-        print(f"Error: {e}")
-        sys.exit(1)
+        # Check if it's a timeout error
+        if "timeout" in str(e).lower():
+            print(f"Script stopped due to FFmpeg timeout: {e}")
+            sys.exit(2)  # Exit with code 2 for timeout
+        else:
+            print(f"Error: {e}")
+            sys.exit(1)
 
 
 if __name__ == "__main__":
