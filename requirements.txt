@@ -1,3 +1,4 @@
 cloudconvert>=2.0.0
+cloudinary
 aiohttp
 aiofiles

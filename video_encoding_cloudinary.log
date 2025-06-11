@@ -1,0 +1,615 @@
+2025-06-11 11:36:39,489 - INFO - Scanning folder: /Users/volkanoluc/videos/2025/01/05
+2025-06-11 11:36:39,489 - INFO - Found 60 video files in /Users/volkanoluc/videos/2025/01/05
+2025-06-11 11:36:39,489 - INFO - Starting async processing of 60 videos
+2025-06-11 11:36:39,489 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-OwB2.mp4
+2025-06-11 11:36:39,489 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-OwB2.mp4
+2025-06-11 11:36:39,489 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/kastamonuda-kurt-surusu-gece-vakti-koyu-basti-GDGV.mp4
+2025-06-11 11:36:39,489 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/kastamonuda-kurt-surusu-gece-vakti-koyu-basti-GDGV.mp4
+2025-06-11 11:36:39,490 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638199_bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-OwB2
+2025-06-11 11:36:39,490 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/alibeykoy-barajinda-su-cekilince-ortaya-cikan-otomobilin-tekerlerini-caldilar-QUbN.mp4
+2025-06-11 11:36:39,490 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638199_kastamonuda-kurt-surusu-gece-vakti-koyu-basti-GDGV
+2025-06-11 11:36:39,490 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/alibeykoy-barajinda-su-cekilince-ortaya-cikan-otomobilin-tekerlerini-caldilar-QUbN.mp4
+2025-06-11 11:36:39,490 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638199_alibeykoy-barajinda-su-cekilince-ortaya-cikan-otomobilin-tekerlerini-caldilar-QUbN
+2025-06-11 11:36:50,938 - INFO - Video uploaded successfully: video_optimizer/1749638199_alibeykoy-barajinda-su-cekilince-ortaya-cikan-otomobilin-tekerlerini-caldilar-QUbN
+2025-06-11 11:36:50,940 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638199_alibeykoy-barajinda-su-cekilince-ortaya-cikan-otomobilin-tekerlerini-caldilar-QUbN
+2025-06-11 11:36:50,940 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638210_alibeykoy-barajinda-su-cekilince-ortaya-cikan-otomobilin-tekerlerini-caldilar-QUbN.mp4
+2025-06-11 11:36:56,978 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:36:56,989 - INFO - Video uploaded successfully: video_optimizer/1749638199_kastamonuda-kurt-surusu-gece-vakti-koyu-basti-GDGV
+2025-06-11 11:36:56,990 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638199_kastamonuda-kurt-surusu-gece-vakti-koyu-basti-GDGV
+2025-06-11 11:36:56,990 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638216_kastamonuda-kurt-surusu-gece-vakti-koyu-basti-GDGV.mp4
+2025-06-11 11:37:02,831 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:37:02,842 - INFO - Video uploaded successfully: video_optimizer/1749638199_bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-OwB2
+2025-06-11 11:37:02,843 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638199_bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-OwB2
+2025-06-11 11:37:02,843 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638222_bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-OwB2.mp4
+2025-06-11 11:37:14,111 - INFO - Video encoding completed in 34.62s. Size: 28.5MB -> 6.3MB (-78.0%)
+2025-06-11 11:37:14,714 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638199_alibeykoy-barajinda-su-cekilince-ortaya-cikan-otomobilin-tekerlerini-caldilar-QUbN
+2025-06-11 11:37:14,718 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/alibeykoy-barajinda-su-cekilince-ortaya-cikan-otomobilin-tekerlerini-caldilar-QUbN.mp4.backup
+2025-06-11 11:37:14,719 - INFO - Successfully replaced original file. Size reduced from 28.5MB to 6.3MB (-78.0%)
+2025-06-11 11:37:14,720 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/cumhurbaskani-erdogandan-secim-mesaji-millet-14-mayista-geregini-yapacak-5DQc.mp4
+2025-06-11 11:37:14,720 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/cumhurbaskani-erdogandan-secim-mesaji-millet-14-mayista-geregini-yapacak-5DQc.mp4
+2025-06-11 11:37:14,721 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638234_cumhurbaskani-erdogandan-secim-mesaji-millet-14-mayista-geregini-yapacak-5DQc
+2025-06-11 11:37:23,116 - INFO - Video encoding completed in 43.63s. Size: 31.0MB -> 7.2MB (-76.6%)
+2025-06-11 11:37:24,027 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638199_kastamonuda-kurt-surusu-gece-vakti-koyu-basti-GDGV
+2025-06-11 11:37:24,030 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/kastamonuda-kurt-surusu-gece-vakti-koyu-basti-GDGV.mp4.backup
+2025-06-11 11:37:24,031 - INFO - Successfully replaced original file. Size reduced from 31.0MB to 7.2MB (-76.6%)
+2025-06-11 11:37:24,032 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/yurekler-agza-geldi-d-100de-dehsete-dusuren-goruntuler-hZDk.mp4
+2025-06-11 11:37:24,033 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/yurekler-agza-geldi-d-100de-dehsete-dusuren-goruntuler-hZDk.mp4
+2025-06-11 11:37:24,033 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638244_yurekler-agza-geldi-d-100de-dehsete-dusuren-goruntuler-hZDk
+2025-06-11 11:37:32,260 - INFO - Video uploaded successfully: video_optimizer/1749638244_yurekler-agza-geldi-d-100de-dehsete-dusuren-goruntuler-hZDk
+2025-06-11 11:37:32,260 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638244_yurekler-agza-geldi-d-100de-dehsete-dusuren-goruntuler-hZDk
+2025-06-11 11:37:32,260 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638252_yurekler-agza-geldi-d-100de-dehsete-dusuren-goruntuler-hZDk.mp4
+2025-06-11 11:37:44,969 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:37:45,002 - ERROR - Error encoding video /Users/volkanoluc/videos/2025/01/05/cumhurbaskani-erdogandan-secim-mesaji-millet-14-mayista-geregini-yapacak-5DQc.mp4: Error parsing server response (413) - b'<html>\r\n<head><title>413 Request Entity Too Large</title></head>\r\n<body>\r\n<center><h1>413 Request Entity Too Large</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'. Got - Expecting value: line 1 column 1 (char 0)
+2025-06-11 11:37:45,193 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638234_cumhurbaskani-erdogandan-secim-mesaji-millet-14-mayista-geregini-yapacak-5DQc
+2025-06-11 11:37:45,194 - ERROR - Failed to encode video: /Users/volkanoluc/videos/2025/01/05/cumhurbaskani-erdogandan-secim-mesaji-millet-14-mayista-geregini-yapacak-5DQc.mp4
+2025-06-11 11:37:45,194 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/fetonun-calisma-evlerinde-kpssye-hazirlan-11-zanliya-yaka-paca-gozalti-j1Ac.mp4
+2025-06-11 11:37:45,194 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/fetonun-calisma-evlerinde-kpssye-hazirlan-11-zanliya-yaka-paca-gozalti-j1Ac.mp4
+2025-06-11 11:37:45,194 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638265_fetonun-calisma-evlerinde-kpssye-hazirlan-11-zanliya-yaka-paca-gozalti-j1Ac
+2025-06-11 11:37:47,180 - INFO - Video encoding completed in 23.15s. Size: 16.3MB -> 2.6MB (-84.1%)
+2025-06-11 11:37:48,148 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638244_yurekler-agza-geldi-d-100de-dehsete-dusuren-goruntuler-hZDk
+2025-06-11 11:37:48,150 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/yurekler-agza-geldi-d-100de-dehsete-dusuren-goruntuler-hZDk.mp4.backup
+2025-06-11 11:37:48,151 - INFO - Successfully replaced original file. Size reduced from 16.3MB to 2.6MB (-84.1%)
+2025-06-11 11:37:48,152 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/istanbulda-6-aylik-apartman-dairesinde-tavan-alcisi-ailenin-uzerine-dustu-4QGy.mp4
+2025-06-11 11:37:48,153 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/istanbulda-6-aylik-apartman-dairesinde-tavan-alcisi-ailenin-uzerine-dustu-4QGy.mp4
+2025-06-11 11:37:48,153 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638268_istanbulda-6-aylik-apartman-dairesinde-tavan-alcisi-ailenin-uzerine-dustu-4QGy
+2025-06-11 11:37:55,087 - INFO - Video encoding completed in 75.60s. Size: 57.9MB -> 9.1MB (-84.3%)
+2025-06-11 11:37:55,222 - INFO - Video uploaded successfully: video_optimizer/1749638265_fetonun-calisma-evlerinde-kpssye-hazirlan-11-zanliya-yaka-paca-gozalti-j1Ac
+2025-06-11 11:37:55,223 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638265_fetonun-calisma-evlerinde-kpssye-hazirlan-11-zanliya-yaka-paca-gozalti-j1Ac
+2025-06-11 11:37:55,223 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638275_fetonun-calisma-evlerinde-kpssye-hazirlan-11-zanliya-yaka-paca-gozalti-j1Ac.mp4
+2025-06-11 11:37:56,057 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:37:56,059 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638199_bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-OwB2
+2025-06-11 11:37:56,060 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-OwB2.mp4.backup
+2025-06-11 11:37:56,060 - INFO - Successfully replaced original file. Size reduced from 57.9MB to 9.1MB (-84.3%)
+2025-06-11 11:37:56,061 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/nisanli-cift-yol-kenarinda-baslarindan-vurulmus-halde-bulundu-Q3z1.mp4
+2025-06-11 11:37:56,061 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/nisanli-cift-yol-kenarinda-baslarindan-vurulmus-halde-bulundu-Q3z1.mp4
+2025-06-11 11:37:56,061 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638276_nisanli-cift-yol-kenarinda-baslarindan-vurulmus-halde-bulundu-Q3z1
+2025-06-11 11:38:03,237 - INFO - Video uploaded successfully: video_optimizer/1749638276_nisanli-cift-yol-kenarinda-baslarindan-vurulmus-halde-bulundu-Q3z1
+2025-06-11 11:38:03,238 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638276_nisanli-cift-yol-kenarinda-baslarindan-vurulmus-halde-bulundu-Q3z1
+2025-06-11 11:38:03,238 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638283_nisanli-cift-yol-kenarinda-baslarindan-vurulmus-halde-bulundu-Q3z1.mp4
+2025-06-11 11:38:10,219 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:38:10,229 - INFO - Video uploaded successfully: video_optimizer/1749638268_istanbulda-6-aylik-apartman-dairesinde-tavan-alcisi-ailenin-uzerine-dustu-4QGy
+2025-06-11 11:38:10,229 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638268_istanbulda-6-aylik-apartman-dairesinde-tavan-alcisi-ailenin-uzerine-dustu-4QGy
+2025-06-11 11:38:10,229 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638290_istanbulda-6-aylik-apartman-dairesinde-tavan-alcisi-ailenin-uzerine-dustu-4QGy.mp4
+2025-06-11 11:38:12,319 - INFO - Video encoding completed in 16.26s. Size: 15.3MB -> 2.1MB (-86.3%)
+2025-06-11 11:38:13,073 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638276_nisanli-cift-yol-kenarinda-baslarindan-vurulmus-halde-bulundu-Q3z1
+2025-06-11 11:38:13,075 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/nisanli-cift-yol-kenarinda-baslarindan-vurulmus-halde-bulundu-Q3z1.mp4.backup
+2025-06-11 11:38:13,076 - INFO - Successfully replaced original file. Size reduced from 15.3MB to 2.1MB (-86.3%)
+2025-06-11 11:38:13,077 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/kiralik-evlere-fahis-fiyat-denetimi-EQ9h.mp4
+2025-06-11 11:38:13,077 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/kiralik-evlere-fahis-fiyat-denetimi-EQ9h.mp4
+2025-06-11 11:38:13,077 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638293_kiralik-evlere-fahis-fiyat-denetimi-EQ9h
+2025-06-11 11:38:26,206 - INFO - Video encoding completed in 41.01s. Size: 22.0MB -> 6.6MB (-69.8%)
+2025-06-11 11:38:27,202 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638265_fetonun-calisma-evlerinde-kpssye-hazirlan-11-zanliya-yaka-paca-gozalti-j1Ac
+2025-06-11 11:38:27,204 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/fetonun-calisma-evlerinde-kpssye-hazirlan-11-zanliya-yaka-paca-gozalti-j1Ac.mp4.backup
+2025-06-11 11:38:27,204 - INFO - Successfully replaced original file. Size reduced from 22.0MB to 6.6MB (-69.8%)
+2025-06-11 11:38:27,205 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/deprem-esnasinda-golden-alevlerin-ciktigi-anlar-dehsete-dusurdu-7RUX.mp4
+2025-06-11 11:38:27,205 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/deprem-esnasinda-golden-alevlerin-ciktigi-anlar-dehsete-dusurdu-7RUX.mp4
+2025-06-11 11:38:27,206 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638307_deprem-esnasinda-golden-alevlerin-ciktigi-anlar-dehsete-dusurdu-7RUX
+2025-06-11 11:38:33,933 - INFO - Video uploaded successfully: video_optimizer/1749638293_kiralik-evlere-fahis-fiyat-denetimi-EQ9h
+2025-06-11 11:38:33,934 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638293_kiralik-evlere-fahis-fiyat-denetimi-EQ9h
+2025-06-11 11:38:33,934 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638313_kiralik-evlere-fahis-fiyat-denetimi-EQ9h.mp4
+2025-06-11 11:38:48,138 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:38:48,147 - INFO - Video uploaded successfully: video_optimizer/1749638307_deprem-esnasinda-golden-alevlerin-ciktigi-anlar-dehsete-dusurdu-7RUX
+2025-06-11 11:38:48,148 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638307_deprem-esnasinda-golden-alevlerin-ciktigi-anlar-dehsete-dusurdu-7RUX
+2025-06-11 11:38:48,148 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638328_deprem-esnasinda-golden-alevlerin-ciktigi-anlar-dehsete-dusurdu-7RUX.mp4
+2025-06-11 11:39:04,054 - INFO - Video encoding completed in 75.90s. Size: 60.4MB -> 15.7MB (-74.0%)
+2025-06-11 11:39:04,517 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638268_istanbulda-6-aylik-apartman-dairesinde-tavan-alcisi-ailenin-uzerine-dustu-4QGy
+2025-06-11 11:39:04,519 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/istanbulda-6-aylik-apartman-dairesinde-tavan-alcisi-ailenin-uzerine-dustu-4QGy.mp4.backup
+2025-06-11 11:39:04,520 - INFO - Successfully replaced original file. Size reduced from 60.4MB to 15.7MB (-74.0%)
+2025-06-11 11:39:04,521 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/gozler-14-mayista-yapilacak-olan-secimlerde-peki-depremzedeler-nasil-oy-kullanacak-ak-parti-ysk-temsilcisi-recep-ozel-acikladi-wHIx.mp4
+2025-06-11 11:39:04,521 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/gozler-14-mayista-yapilacak-olan-secimlerde-peki-depremzedeler-nasil-oy-kullanacak-ak-parti-ysk-temsilcisi-recep-ozel-acikladi-wHIx.mp4
+2025-06-11 11:39:04,522 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638344_gozler-14-mayista-yapilacak-olan-secimlerde-peki-depremzedeler-nasil-oy-kullanacak-ak-parti-ysk-temsilcisi-recep-ozel-acikladi-wHIx
+2025-06-11 11:39:27,861 - ERROR - Error encoding video /Users/volkanoluc/videos/2025/01/05/gozler-14-mayista-yapilacak-olan-secimlerde-peki-depremzedeler-nasil-oy-kullanacak-ak-parti-ysk-temsilcisi-recep-ozel-acikladi-wHIx.mp4: Error parsing server response (413) - b'<html>\r\n<head><title>413 Request Entity Too Large</title></head>\r\n<body>\r\n<center><h1>413 Request Entity Too Large</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'. Got - Expecting value: line 1 column 1 (char 0)
+2025-06-11 11:39:28,537 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638344_gozler-14-mayista-yapilacak-olan-secimlerde-peki-depremzedeler-nasil-oy-kullanacak-ak-parti-ysk-temsilcisi-recep-ozel-acikladi-wHIx
+2025-06-11 11:39:28,539 - ERROR - Failed to encode video: /Users/volkanoluc/videos/2025/01/05/gozler-14-mayista-yapilacak-olan-secimlerde-peki-depremzedeler-nasil-oy-kullanacak-ak-parti-ysk-temsilcisi-recep-ozel-acikladi-wHIx.mp4
+2025-06-11 11:39:28,539 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/eski-kuryenin-cantasindan-cikan-hayrete-dusurdu-ayni-odada-kaldi-kiz-arkadasi-olarak-gordugunu-soyledi-tEqe.mp4
+2025-06-11 11:39:28,540 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/eski-kuryenin-cantasindan-cikan-hayrete-dusurdu-ayni-odada-kaldi-kiz-arkadasi-olarak-gordugunu-soyledi-tEqe.mp4
+2025-06-11 11:39:28,540 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638368_eski-kuryenin-cantasindan-cikan-hayrete-dusurdu-ayni-odada-kaldi-kiz-arkadasi-olarak-gordugunu-soyledi-tEqe
+2025-06-11 11:39:35,906 - INFO - Video encoding completed in 82.83s. Size: 61.9MB -> 17.1MB (-72.3%)
+2025-06-11 11:39:36,844 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638293_kiralik-evlere-fahis-fiyat-denetimi-EQ9h
+2025-06-11 11:39:36,846 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/kiralik-evlere-fahis-fiyat-denetimi-EQ9h.mp4.backup
+2025-06-11 11:39:36,846 - INFO - Successfully replaced original file. Size reduced from 61.9MB to 17.1MB (-72.3%)
+2025-06-11 11:39:36,847 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/film-sahnesi-gibi-istanbulda-otomobilin-yolunu-kesip-surucuyu-kacirdilar-8W0A.mp4
+2025-06-11 11:39:36,847 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/film-sahnesi-gibi-istanbulda-otomobilin-yolunu-kesip-surucuyu-kacirdilar-8W0A.mp4
+2025-06-11 11:39:36,847 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638376_film-sahnesi-gibi-istanbulda-otomobilin-yolunu-kesip-surucuyu-kacirdilar-8W0A
+2025-06-11 11:39:37,671 - INFO - Video uploaded successfully: video_optimizer/1749638368_eski-kuryenin-cantasindan-cikan-hayrete-dusurdu-ayni-odada-kaldi-kiz-arkadasi-olarak-gordugunu-soyledi-tEqe
+2025-06-11 11:39:37,673 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638368_eski-kuryenin-cantasindan-cikan-hayrete-dusurdu-ayni-odada-kaldi-kiz-arkadasi-olarak-gordugunu-soyledi-tEqe
+2025-06-11 11:39:37,673 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638377_eski-kuryenin-cantasindan-cikan-hayrete-dusurdu-ayni-odada-kaldi-kiz-arkadasi-olarak-gordugunu-soyledi-tEqe.mp4
+2025-06-11 11:39:52,649 - INFO - Video encoding completed in 24.11s. Size: 22.8MB -> 4.7MB (-79.5%)
+2025-06-11 11:39:53,188 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638368_eski-kuryenin-cantasindan-cikan-hayrete-dusurdu-ayni-odada-kaldi-kiz-arkadasi-olarak-gordugunu-soyledi-tEqe
+2025-06-11 11:39:53,190 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/eski-kuryenin-cantasindan-cikan-hayrete-dusurdu-ayni-odada-kaldi-kiz-arkadasi-olarak-gordugunu-soyledi-tEqe.mp4.backup
+2025-06-11 11:39:53,191 - INFO - Successfully replaced original file. Size reduced from 22.8MB to 4.7MB (-79.5%)
+2025-06-11 11:39:53,192 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/gorunmeyecegini-sandi-ama-hirsiz-bu-sefer-surunerek-girdi-kosarak-cikti-wmgb.mp4
+2025-06-11 11:39:53,192 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/gorunmeyecegini-sandi-ama-hirsiz-bu-sefer-surunerek-girdi-kosarak-cikti-wmgb.mp4
+2025-06-11 11:39:53,193 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638393_gorunmeyecegini-sandi-ama-hirsiz-bu-sefer-surunerek-girdi-kosarak-cikti-wmgb
+2025-06-11 11:39:57,393 - INFO - Video uploaded successfully: video_optimizer/1749638376_film-sahnesi-gibi-istanbulda-otomobilin-yolunu-kesip-surucuyu-kacirdilar-8W0A
+2025-06-11 11:39:57,394 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638376_film-sahnesi-gibi-istanbulda-otomobilin-yolunu-kesip-surucuyu-kacirdilar-8W0A
+2025-06-11 11:39:57,394 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638397_film-sahnesi-gibi-istanbulda-otomobilin-yolunu-kesip-surucuyu-kacirdilar-8W0A.mp4
+2025-06-11 11:39:59,518 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:39:59,521 - INFO - Video uploaded successfully: video_optimizer/1749638393_gorunmeyecegini-sandi-ama-hirsiz-bu-sefer-surunerek-girdi-kosarak-cikti-wmgb
+2025-06-11 11:39:59,521 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638393_gorunmeyecegini-sandi-ama-hirsiz-bu-sefer-surunerek-girdi-kosarak-cikti-wmgb
+2025-06-11 11:39:59,522 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638399_gorunmeyecegini-sandi-ama-hirsiz-bu-sefer-surunerek-girdi-kosarak-cikti-wmgb.mp4
+2025-06-11 11:40:04,964 - INFO - Video encoding completed in 97.76s. Size: 63.3MB -> 16.2MB (-74.5%)
+2025-06-11 11:40:05,463 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638307_deprem-esnasinda-golden-alevlerin-ciktigi-anlar-dehsete-dusurdu-7RUX
+2025-06-11 11:40:05,464 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/deprem-esnasinda-golden-alevlerin-ciktigi-anlar-dehsete-dusurdu-7RUX.mp4.backup
+2025-06-11 11:40:05,465 - INFO - Successfully replaced original file. Size reduced from 63.3MB to 16.2MB (-74.5%)
+2025-06-11 11:40:05,465 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/tuyleri-diken-diken-eden-not-depremde-kaybolan-yakinlarini-astiklari-ilanlarla-ariyorlar-1YUF.mp4
+2025-06-11 11:40:05,466 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/tuyleri-diken-diken-eden-not-depremde-kaybolan-yakinlarini-astiklari-ilanlarla-ariyorlar-1YUF.mp4
+2025-06-11 11:40:05,466 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638405_tuyleri-diken-diken-eden-not-depremde-kaybolan-yakinlarini-astiklari-ilanlarla-ariyorlar-1YUF
+2025-06-11 11:40:06,551 - INFO - Video encoding completed in 13.36s. Size: 14.7MB -> 2.0MB (-86.7%)
+2025-06-11 11:40:07,519 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638393_gorunmeyecegini-sandi-ama-hirsiz-bu-sefer-surunerek-girdi-kosarak-cikti-wmgb
+2025-06-11 11:40:07,522 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/gorunmeyecegini-sandi-ama-hirsiz-bu-sefer-surunerek-girdi-kosarak-cikti-wmgb.mp4.backup
+2025-06-11 11:40:07,522 - INFO - Successfully replaced original file. Size reduced from 14.7MB to 2.0MB (-86.7%)
+2025-06-11 11:40:07,523 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/son-dakika-mit-ve-emniyetten-ortak-operasyon-teror-orgutu-deasin-kilit-ismi-abu-huzeyfe-istanbulda-yakalandi-hYVa.mp4
+2025-06-11 11:40:07,523 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/son-dakika-mit-ve-emniyetten-ortak-operasyon-teror-orgutu-deasin-kilit-ismi-abu-huzeyfe-istanbulda-yakalandi-hYVa.mp4
+2025-06-11 11:40:07,523 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638407_son-dakika-mit-ve-emniyetten-ortak-operasyon-teror-orgutu-deasin-kilit-ismi-abu-huzeyfe-istanbulda-yakalandi-hYVa
+2025-06-11 11:40:21,603 - INFO - Video uploaded successfully: video_optimizer/1749638405_tuyleri-diken-diken-eden-not-depremde-kaybolan-yakinlarini-astiklari-ilanlarla-ariyorlar-1YUF
+2025-06-11 11:40:21,604 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638405_tuyleri-diken-diken-eden-not-depremde-kaybolan-yakinlarini-astiklari-ilanlarla-ariyorlar-1YUF
+2025-06-11 11:40:21,604 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638421_tuyleri-diken-diken-eden-not-depremde-kaybolan-yakinlarini-astiklari-ilanlarla-ariyorlar-1YUF.mp4
+2025-06-11 11:40:33,087 - INFO - Video encoding completed in 56.24s. Size: 41.6MB -> 10.7MB (-74.4%)
+2025-06-11 11:40:33,887 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638376_film-sahnesi-gibi-istanbulda-otomobilin-yolunu-kesip-surucuyu-kacirdilar-8W0A
+2025-06-11 11:40:33,889 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/film-sahnesi-gibi-istanbulda-otomobilin-yolunu-kesip-surucuyu-kacirdilar-8W0A.mp4.backup
+2025-06-11 11:40:33,889 - INFO - Successfully replaced original file. Size reduced from 41.6MB to 10.7MB (-74.4%)
+2025-06-11 11:40:33,891 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/hatayda-23-gun-sonra-aleks-adli-kopek-enkazdan-kurtarildi-K6nY.mp4
+2025-06-11 11:40:33,891 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/hatayda-23-gun-sonra-aleks-adli-kopek-enkazdan-kurtarildi-K6nY.mp4
+2025-06-11 11:40:33,891 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638433_hatayda-23-gun-sonra-aleks-adli-kopek-enkazdan-kurtarildi-K6nY
+2025-06-11 11:40:52,966 - INFO - Video uploaded successfully: video_optimizer/1749638433_hatayda-23-gun-sonra-aleks-adli-kopek-enkazdan-kurtarildi-K6nY
+2025-06-11 11:40:52,967 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638433_hatayda-23-gun-sonra-aleks-adli-kopek-enkazdan-kurtarildi-K6nY
+2025-06-11 11:40:52,968 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638452_hatayda-23-gun-sonra-aleks-adli-kopek-enkazdan-kurtarildi-K6nY.mp4
+2025-06-11 11:40:56,145 - INFO - Video encoding completed in 50.68s. Size: 37.5MB -> 8.9MB (-76.2%)
+2025-06-11 11:40:56,620 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638405_tuyleri-diken-diken-eden-not-depremde-kaybolan-yakinlarini-astiklari-ilanlarla-ariyorlar-1YUF
+2025-06-11 11:40:56,623 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/tuyleri-diken-diken-eden-not-depremde-kaybolan-yakinlarini-astiklari-ilanlarla-ariyorlar-1YUF.mp4.backup
+2025-06-11 11:40:56,624 - INFO - Successfully replaced original file. Size reduced from 37.5MB to 8.9MB (-76.2%)
+2025-06-11 11:40:56,625 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/prof-dr-ovgun-ahmet-ercan-o-bolgeyi-uyardi-8e-kadar-deprem-uretebilir-OftU.mp4
+2025-06-11 11:40:56,625 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/prof-dr-ovgun-ahmet-ercan-o-bolgeyi-uyardi-8e-kadar-deprem-uretebilir-OftU.mp4
+2025-06-11 11:40:56,625 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638456_prof-dr-ovgun-ahmet-ercan-o-bolgeyi-uyardi-8e-kadar-deprem-uretebilir-OftU
+2025-06-11 11:41:14,870 - INFO - Video uploaded successfully: video_optimizer/1749638407_son-dakika-mit-ve-emniyetten-ortak-operasyon-teror-orgutu-deasin-kilit-ismi-abu-huzeyfe-istanbulda-yakalandi-hYVa
+2025-06-11 11:41:14,871 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638407_son-dakika-mit-ve-emniyetten-ortak-operasyon-teror-orgutu-deasin-kilit-ismi-abu-huzeyfe-istanbulda-yakalandi-hYVa
+2025-06-11 11:41:14,871 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638474_son-dakika-mit-ve-emniyetten-ortak-operasyon-teror-orgutu-deasin-kilit-ismi-abu-huzeyfe-istanbulda-yakalandi-hYVa.mp4
+2025-06-11 11:41:17,097 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:41:17,105 - INFO - Video uploaded successfully: video_optimizer/1749638456_prof-dr-ovgun-ahmet-ercan-o-bolgeyi-uyardi-8e-kadar-deprem-uretebilir-OftU
+2025-06-11 11:41:17,105 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638456_prof-dr-ovgun-ahmet-ercan-o-bolgeyi-uyardi-8e-kadar-deprem-uretebilir-OftU
+2025-06-11 11:41:17,105 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638477_prof-dr-ovgun-ahmet-ercan-o-bolgeyi-uyardi-8e-kadar-deprem-uretebilir-OftU.mp4
+2025-06-11 11:41:28,573 - INFO - Video encoding completed in 81.05s. Size: 17.2MB -> 2.7MB (-84.2%)
+2025-06-11 11:41:29,092 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638407_son-dakika-mit-ve-emniyetten-ortak-operasyon-teror-orgutu-deasin-kilit-ismi-abu-huzeyfe-istanbulda-yakalandi-hYVa
+2025-06-11 11:41:29,095 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/son-dakika-mit-ve-emniyetten-ortak-operasyon-teror-orgutu-deasin-kilit-ismi-abu-huzeyfe-istanbulda-yakalandi-hYVa.mp4.backup
+2025-06-11 11:41:29,096 - INFO - Successfully replaced original file. Size reduced from 17.2MB to 2.7MB (-84.2%)
+2025-06-11 11:41:29,096 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/askeri-helikopterler-4-bin-388-sorti-yaparak-deprem-bolgesine-yardim-malzemesi-tasidi-F4NQ.mp4
+2025-06-11 11:41:29,097 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/askeri-helikopterler-4-bin-388-sorti-yaparak-deprem-bolgesine-yardim-malzemesi-tasidi-F4NQ.mp4
+2025-06-11 11:41:29,097 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638489_askeri-helikopterler-4-bin-388-sorti-yaparak-deprem-bolgesine-yardim-malzemesi-tasidi-F4NQ
+2025-06-11 11:41:35,260 - INFO - Video encoding completed in 61.37s. Size: 44.2MB -> 11.6MB (-73.8%)
+2025-06-11 11:41:36,455 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638433_hatayda-23-gun-sonra-aleks-adli-kopek-enkazdan-kurtarildi-K6nY
+2025-06-11 11:41:36,457 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/hatayda-23-gun-sonra-aleks-adli-kopek-enkazdan-kurtarildi-K6nY.mp4.backup
+2025-06-11 11:41:36,457 - INFO - Successfully replaced original file. Size reduced from 44.2MB to 11.6MB (-73.8%)
+2025-06-11 11:41:36,458 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/baykardan-uyari-yayinlanan-bu-ilanlara-dikkat-NHxv.mp4
+2025-06-11 11:41:36,458 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/baykardan-uyari-yayinlanan-bu-ilanlara-dikkat-NHxv.mp4
+2025-06-11 11:41:36,459 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638496_baykardan-uyari-yayinlanan-bu-ilanlara-dikkat-NHxv
+2025-06-11 11:41:38,686 - INFO - Video uploaded successfully: video_optimizer/1749638489_askeri-helikopterler-4-bin-388-sorti-yaparak-deprem-bolgesine-yardim-malzemesi-tasidi-F4NQ
+2025-06-11 11:41:38,686 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638489_askeri-helikopterler-4-bin-388-sorti-yaparak-deprem-bolgesine-yardim-malzemesi-tasidi-F4NQ
+2025-06-11 11:41:38,687 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638498_askeri-helikopterler-4-bin-388-sorti-yaparak-deprem-bolgesine-yardim-malzemesi-tasidi-F4NQ.mp4
+2025-06-11 11:41:48,456 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:41:48,460 - INFO - Video uploaded successfully: video_optimizer/1749638496_baykardan-uyari-yayinlanan-bu-ilanlara-dikkat-NHxv
+2025-06-11 11:41:48,461 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638496_baykardan-uyari-yayinlanan-bu-ilanlara-dikkat-NHxv
+2025-06-11 11:41:48,461 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638508_baykardan-uyari-yayinlanan-bu-ilanlara-dikkat-NHxv.mp4
+2025-06-11 11:41:51,539 - INFO - Video encoding completed in 22.44s. Size: 17.9MB -> 3.2MB (-82.4%)
+2025-06-11 11:41:52,117 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638489_askeri-helikopterler-4-bin-388-sorti-yaparak-deprem-bolgesine-yardim-malzemesi-tasidi-F4NQ
+2025-06-11 11:41:52,120 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/askeri-helikopterler-4-bin-388-sorti-yaparak-deprem-bolgesine-yardim-malzemesi-tasidi-F4NQ.mp4.backup
+2025-06-11 11:41:52,120 - INFO - Successfully replaced original file. Size reduced from 17.9MB to 3.2MB (-82.4%)
+2025-06-11 11:41:52,122 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/adiyamanin-tasinacagi-yer-belli-oldu-kent-buraya-insa-edilecek-Tyll.mp4
+2025-06-11 11:41:52,122 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/adiyamanin-tasinacagi-yer-belli-oldu-kent-buraya-insa-edilecek-Tyll.mp4
+2025-06-11 11:41:52,122 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638512_adiyamanin-tasinacagi-yer-belli-oldu-kent-buraya-insa-edilecek-Tyll
+2025-06-11 11:41:59,145 - INFO - Video encoding completed in 62.52s. Size: 44.8MB -> 11.7MB (-74.0%)
+2025-06-11 11:42:00,185 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638456_prof-dr-ovgun-ahmet-ercan-o-bolgeyi-uyardi-8e-kadar-deprem-uretebilir-OftU
+2025-06-11 11:42:00,186 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/prof-dr-ovgun-ahmet-ercan-o-bolgeyi-uyardi-8e-kadar-deprem-uretebilir-OftU.mp4.backup
+2025-06-11 11:42:00,186 - INFO - Successfully replaced original file. Size reduced from 44.8MB to 11.7MB (-74.0%)
+2025-06-11 11:42:00,187 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/korku-dolu-anlar-pendikte-esnafa-boyle-kursun-yagdirdi-nEg9.mp4
+2025-06-11 11:42:00,187 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/korku-dolu-anlar-pendikte-esnafa-boyle-kursun-yagdirdi-nEg9.mp4
+2025-06-11 11:42:00,187 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638520_korku-dolu-anlar-pendikte-esnafa-boyle-kursun-yagdirdi-nEg9
+2025-06-11 11:42:01,618 - INFO - Video encoding completed in 25.16s. Size: 14.8MB -> 3.3MB (-78.0%)
+2025-06-11 11:42:02,898 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638496_baykardan-uyari-yayinlanan-bu-ilanlara-dikkat-NHxv
+2025-06-11 11:42:02,900 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/baykardan-uyari-yayinlanan-bu-ilanlara-dikkat-NHxv.mp4.backup
+2025-06-11 11:42:02,901 - INFO - Successfully replaced original file. Size reduced from 14.8MB to 3.3MB (-78.0%)
+2025-06-11 11:42:02,902 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/kaynak-suyu-camur-renginde-akmaya-basladi-ryVs.mp4
+2025-06-11 11:42:02,903 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/kaynak-suyu-camur-renginde-akmaya-basladi-ryVs.mp4
+2025-06-11 11:42:02,903 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638522_kaynak-suyu-camur-renginde-akmaya-basladi-ryVs
+2025-06-11 11:42:05,457 - INFO - Video uploaded successfully: video_optimizer/1749638512_adiyamanin-tasinacagi-yer-belli-oldu-kent-buraya-insa-edilecek-Tyll
+2025-06-11 11:42:05,458 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638512_adiyamanin-tasinacagi-yer-belli-oldu-kent-buraya-insa-edilecek-Tyll
+2025-06-11 11:42:05,458 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638525_adiyamanin-tasinacagi-yer-belli-oldu-kent-buraya-insa-edilecek-Tyll.mp4
+2025-06-11 11:42:07,609 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:42:07,612 - INFO - Video uploaded successfully: video_optimizer/1749638520_korku-dolu-anlar-pendikte-esnafa-boyle-kursun-yagdirdi-nEg9
+2025-06-11 11:42:07,613 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638520_korku-dolu-anlar-pendikte-esnafa-boyle-kursun-yagdirdi-nEg9
+2025-06-11 11:42:07,613 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638527_korku-dolu-anlar-pendikte-esnafa-boyle-kursun-yagdirdi-nEg9.mp4
+2025-06-11 11:42:13,659 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:42:13,665 - INFO - Video uploaded successfully: video_optimizer/1749638522_kaynak-suyu-camur-renginde-akmaya-basladi-ryVs
+2025-06-11 11:42:13,665 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638522_kaynak-suyu-camur-renginde-akmaya-basladi-ryVs
+2025-06-11 11:42:13,665 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638533_kaynak-suyu-camur-renginde-akmaya-basladi-ryVs.mp4
+2025-06-11 11:42:16,087 - INFO - Video encoding completed in 15.90s. Size: 14.5MB -> 2.0MB (-86.1%)
+2025-06-11 11:42:16,968 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638520_korku-dolu-anlar-pendikte-esnafa-boyle-kursun-yagdirdi-nEg9
+2025-06-11 11:42:16,971 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/korku-dolu-anlar-pendikte-esnafa-boyle-kursun-yagdirdi-nEg9.mp4.backup
+2025-06-11 11:42:16,971 - INFO - Successfully replaced original file. Size reduced from 14.5MB to 2.0MB (-86.1%)
+2025-06-11 11:42:16,973 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/depremden-20-gun-sonra-ortaya-cikti-konyada-12-metre-derinligindeki-devasa-obruk-havadan-goruntulendi-Sk1A.mp4
+2025-06-11 11:42:16,973 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/depremden-20-gun-sonra-ortaya-cikti-konyada-12-metre-derinligindeki-devasa-obruk-havadan-goruntulendi-Sk1A.mp4
+2025-06-11 11:42:16,973 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638536_depremden-20-gun-sonra-ortaya-cikti-konyada-12-metre-derinligindeki-devasa-obruk-havadan-goruntulendi-Sk1A
+2025-06-11 11:42:20,069 - INFO - Video encoding completed in 27.95s. Size: 23.4MB -> 4.3MB (-81.6%)
+2025-06-11 11:42:30,730 - WARNING - Failed to clean up Cloudinary resource video_optimizer/1749638512_adiyamanin-tasinacagi-yer-belli-oldu-kent-buraya-insa-edilecek-Tyll: Timeout waiting for parallel processing.
+2025-06-11 11:42:30,733 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/adiyamanin-tasinacagi-yer-belli-oldu-kent-buraya-insa-edilecek-Tyll.mp4.backup
+2025-06-11 11:42:30,734 - INFO - Successfully replaced original file. Size reduced from 23.4MB to 4.3MB (-81.6%)
+2025-06-11 11:42:30,736 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/eyt-yasalasinca-dernegi-fesih-ettiler-ACmc.mp4
+2025-06-11 11:42:30,736 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/eyt-yasalasinca-dernegi-fesih-ettiler-ACmc.mp4
+2025-06-11 11:42:30,736 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638550_eyt-yasalasinca-dernegi-fesih-ettiler-ACmc
+2025-06-11 11:42:33,186 - INFO - Video encoding completed in 30.28s. Size: 22.9MB -> 4.7MB (-79.6%)
+2025-06-11 11:42:38,950 - INFO - Video uploaded successfully: video_optimizer/1749638536_depremden-20-gun-sonra-ortaya-cikti-konyada-12-metre-derinligindeki-devasa-obruk-havadan-goruntulendi-Sk1A
+2025-06-11 11:42:38,950 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638536_depremden-20-gun-sonra-ortaya-cikti-konyada-12-metre-derinligindeki-devasa-obruk-havadan-goruntulendi-Sk1A
+2025-06-11 11:42:38,951 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638558_depremden-20-gun-sonra-ortaya-cikti-konyada-12-metre-derinligindeki-devasa-obruk-havadan-goruntulendi-Sk1A.mp4
+2025-06-11 11:42:43,867 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:42:43,867 - WARNING - Failed to clean up Cloudinary resource video_optimizer/1749638522_kaynak-suyu-camur-renginde-akmaya-basladi-ryVs: Timeout waiting for parallel processing.
+2025-06-11 11:42:43,872 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/kaynak-suyu-camur-renginde-akmaya-basladi-ryVs.mp4.backup
+2025-06-11 11:42:43,872 - INFO - Successfully replaced original file. Size reduced from 22.9MB to 4.7MB (-79.6%)
+2025-06-11 11:42:43,874 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/hatayda-88-yasindaki-ummuhan-kalkan-sag-ciktigi-enkazin-altinda-oglu-gelini-ve-torunlarini-kaybetti-WSW6.mp4
+2025-06-11 11:42:43,875 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/hatayda-88-yasindaki-ummuhan-kalkan-sag-ciktigi-enkazin-altinda-oglu-gelini-ve-torunlarini-kaybetti-WSW6.mp4
+2025-06-11 11:42:43,875 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638563_hatayda-88-yasindaki-ummuhan-kalkan-sag-ciktigi-enkazin-altinda-oglu-gelini-ve-torunlarini-kaybetti-WSW6
+2025-06-11 11:42:47,464 - INFO - Video uploaded successfully: video_optimizer/1749638550_eyt-yasalasinca-dernegi-fesih-ettiler-ACmc
+2025-06-11 11:42:47,465 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638550_eyt-yasalasinca-dernegi-fesih-ettiler-ACmc
+2025-06-11 11:42:47,465 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638567_eyt-yasalasinca-dernegi-fesih-ettiler-ACmc.mp4
+2025-06-11 11:43:12,390 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:43:12,396 - INFO - Video uploaded successfully: video_optimizer/1749638563_hatayda-88-yasindaki-ummuhan-kalkan-sag-ciktigi-enkazin-altinda-oglu-gelini-ve-torunlarini-kaybetti-WSW6
+2025-06-11 11:43:12,397 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638563_hatayda-88-yasindaki-ummuhan-kalkan-sag-ciktigi-enkazin-altinda-oglu-gelini-ve-torunlarini-kaybetti-WSW6
+2025-06-11 11:43:12,397 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638592_hatayda-88-yasindaki-ummuhan-kalkan-sag-ciktigi-enkazin-altinda-oglu-gelini-ve-torunlarini-kaybetti-WSW6.mp4
+2025-06-11 11:43:12,984 - INFO - Video encoding completed in 42.25s. Size: 35.2MB -> 8.6MB (-75.6%)
+2025-06-11 11:43:13,508 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638550_eyt-yasalasinca-dernegi-fesih-ettiler-ACmc
+2025-06-11 11:43:13,509 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/eyt-yasalasinca-dernegi-fesih-ettiler-ACmc.mp4.backup
+2025-06-11 11:43:13,509 - INFO - Successfully replaced original file. Size reduced from 35.2MB to 8.6MB (-75.6%)
+2025-06-11 11:43:13,510 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-WP92.mp4
+2025-06-11 11:43:13,510 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-WP92.mp4
+2025-06-11 11:43:13,510 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638593_bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-WP92
+2025-06-11 11:43:21,712 - INFO - Video encoding completed in 64.74s. Size: 49.8MB -> 12.5MB (-75.0%)
+2025-06-11 11:43:22,633 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638536_depremden-20-gun-sonra-ortaya-cikti-konyada-12-metre-derinligindeki-devasa-obruk-havadan-goruntulendi-Sk1A
+2025-06-11 11:43:22,635 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/depremden-20-gun-sonra-ortaya-cikti-konyada-12-metre-derinligindeki-devasa-obruk-havadan-goruntulendi-Sk1A.mp4.backup
+2025-06-11 11:43:22,636 - INFO - Successfully replaced original file. Size reduced from 49.8MB to 12.5MB (-75.0%)
+2025-06-11 11:43:22,638 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/adiyamanda-depremzedelere-gunde-5-bin-durum-cig-kofte-dagitiliyor-shsv.mp4
+2025-06-11 11:43:22,638 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/adiyamanda-depremzedelere-gunde-5-bin-durum-cig-kofte-dagitiliyor-shsv.mp4
+2025-06-11 11:43:22,638 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638602_adiyamanda-depremzedelere-gunde-5-bin-durum-cig-kofte-dagitiliyor-shsv
+2025-06-11 11:43:36,598 - INFO - Video uploaded successfully: video_optimizer/1749638593_bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-WP92
+2025-06-11 11:43:36,600 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638593_bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-WP92
+2025-06-11 11:43:36,600 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638616_bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-WP92.mp4
+2025-06-11 11:43:37,657 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:43:37,659 - INFO - Video uploaded successfully: video_optimizer/1749638602_adiyamanda-depremzedelere-gunde-5-bin-durum-cig-kofte-dagitiliyor-shsv
+2025-06-11 11:43:37,659 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638602_adiyamanda-depremzedelere-gunde-5-bin-durum-cig-kofte-dagitiliyor-shsv
+2025-06-11 11:43:37,659 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638617_adiyamanda-depremzedelere-gunde-5-bin-durum-cig-kofte-dagitiliyor-shsv.mp4
+2025-06-11 11:43:47,190 - INFO - Video encoding completed in 63.32s. Size: 41.1MB -> 10.5MB (-74.4%)
+2025-06-11 11:43:47,662 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638563_hatayda-88-yasindaki-ummuhan-kalkan-sag-ciktigi-enkazin-altinda-oglu-gelini-ve-torunlarini-kaybetti-WSW6
+2025-06-11 11:43:47,665 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/hatayda-88-yasindaki-ummuhan-kalkan-sag-ciktigi-enkazin-altinda-oglu-gelini-ve-torunlarini-kaybetti-WSW6.mp4.backup
+2025-06-11 11:43:47,666 - INFO - Successfully replaced original file. Size reduced from 41.1MB to 10.5MB (-74.4%)
+2025-06-11 11:43:47,667 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/120-kisiye-mezar-olan-eda-apartmani-ile-ilgili-kahreden-detay-ortaya-cikti-xANz.mp4
+2025-06-11 11:43:47,668 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/120-kisiye-mezar-olan-eda-apartmani-ile-ilgili-kahreden-detay-ortaya-cikti-xANz.mp4
+2025-06-11 11:43:47,668 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638627_120-kisiye-mezar-olan-eda-apartmani-ile-ilgili-kahreden-detay-ortaya-cikti-xANz
+2025-06-11 11:43:56,313 - INFO - Video encoding completed in 33.67s. Size: 24.3MB -> 5.1MB (-78.9%)
+2025-06-11 11:44:00,813 - INFO - Video uploaded successfully: video_optimizer/1749638627_120-kisiye-mezar-olan-eda-apartmani-ile-ilgili-kahreden-detay-ortaya-cikti-xANz
+2025-06-11 11:44:00,813 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638627_120-kisiye-mezar-olan-eda-apartmani-ile-ilgili-kahreden-detay-ortaya-cikti-xANz
+2025-06-11 11:44:00,813 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638640_120-kisiye-mezar-olan-eda-apartmani-ile-ilgili-kahreden-detay-ortaya-cikti-xANz.mp4
+2025-06-11 11:44:07,002 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:44:07,003 - WARNING - Failed to clean up Cloudinary resource video_optimizer/1749638602_adiyamanda-depremzedelere-gunde-5-bin-durum-cig-kofte-dagitiliyor-shsv: Timeout waiting for parallel processing.
+2025-06-11 11:44:07,007 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/adiyamanda-depremzedelere-gunde-5-bin-durum-cig-kofte-dagitiliyor-shsv.mp4.backup
+2025-06-11 11:44:07,008 - INFO - Successfully replaced original file. Size reduced from 24.3MB to 5.1MB (-78.9%)
+2025-06-11 11:44:07,009 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/adanada-bir-bina-is-makinesinin-kucuk-donusuyla-yerin-dibine-girdi-Y9xH.mp4
+2025-06-11 11:44:07,010 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/adanada-bir-bina-is-makinesinin-kucuk-donusuyla-yerin-dibine-girdi-Y9xH.mp4
+2025-06-11 11:44:07,010 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638647_adanada-bir-bina-is-makinesinin-kucuk-donusuyla-yerin-dibine-girdi-Y9xH
+2025-06-11 11:44:19,539 - INFO - Video uploaded successfully: video_optimizer/1749638647_adanada-bir-bina-is-makinesinin-kucuk-donusuyla-yerin-dibine-girdi-Y9xH
+2025-06-11 11:44:19,541 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638647_adanada-bir-bina-is-makinesinin-kucuk-donusuyla-yerin-dibine-girdi-Y9xH
+2025-06-11 11:44:19,541 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638659_adanada-bir-bina-is-makinesinin-kucuk-donusuyla-yerin-dibine-girdi-Y9xH.mp4
+2025-06-11 11:44:27,432 - INFO - Video encoding completed in 39.76s. Size: 37.9MB -> 9.0MB (-76.2%)
+2025-06-11 11:44:28,204 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638627_120-kisiye-mezar-olan-eda-apartmani-ile-ilgili-kahreden-detay-ortaya-cikti-xANz
+2025-06-11 11:44:28,207 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/120-kisiye-mezar-olan-eda-apartmani-ile-ilgili-kahreden-detay-ortaya-cikti-xANz.mp4.backup
+2025-06-11 11:44:28,208 - INFO - Successfully replaced original file. Size reduced from 37.9MB to 9.0MB (-76.2%)
+2025-06-11 11:44:28,211 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/imamoglu-seferberlik-baslatiyoruz-mlni.mp4
+2025-06-11 11:44:28,211 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/imamoglu-seferberlik-baslatiyoruz-mlni.mp4
+2025-06-11 11:44:28,211 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638668_imamoglu-seferberlik-baslatiyoruz-mlni
+2025-06-11 11:44:29,614 - INFO - Video encoding completed in 76.10s. Size: 51.1MB -> 13.3MB (-74.0%)
+2025-06-11 11:44:30,550 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638593_bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-WP92
+2025-06-11 11:44:30,552 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/bakan-vedat-bilginden-flas-eyt-aciklamasi-maaslar-nisan-ayinda-WP92.mp4.backup
+2025-06-11 11:44:30,553 - INFO - Successfully replaced original file. Size reduced from 51.1MB to 13.3MB (-74.0%)
+2025-06-11 11:44:30,556 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/erdal-bakkalda-depremzedelerin-yardimina-kostu-ilk-olarak-oraya-mudahale-ettik-H3j9.mp4
+2025-06-11 11:44:30,556 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/erdal-bakkalda-depremzedelerin-yardimina-kostu-ilk-olarak-oraya-mudahale-ettik-H3j9.mp4
+2025-06-11 11:44:30,556 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638670_erdal-bakkalda-depremzedelerin-yardimina-kostu-ilk-olarak-oraya-mudahale-ettik-H3j9
+2025-06-11 11:44:44,069 - INFO - Video uploaded successfully: video_optimizer/1749638668_imamoglu-seferberlik-baslatiyoruz-mlni
+2025-06-11 11:44:44,070 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638668_imamoglu-seferberlik-baslatiyoruz-mlni
+2025-06-11 11:44:44,071 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638684_imamoglu-seferberlik-baslatiyoruz-mlni.mp4
+2025-06-11 11:44:51,717 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:44:51,725 - INFO - Video uploaded successfully: video_optimizer/1749638670_erdal-bakkalda-depremzedelerin-yardimina-kostu-ilk-olarak-oraya-mudahale-ettik-H3j9
+2025-06-11 11:44:51,726 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638670_erdal-bakkalda-depremzedelerin-yardimina-kostu-ilk-olarak-oraya-mudahale-ettik-H3j9
+2025-06-11 11:44:51,726 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638691_erdal-bakkalda-depremzedelerin-yardimina-kostu-ilk-olarak-oraya-mudahale-ettik-H3j9.mp4
+2025-06-11 11:44:55,649 - INFO - Video encoding completed in 48.64s. Size: 42.0MB -> 10.1MB (-76.0%)
+2025-06-11 11:44:56,041 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638647_adanada-bir-bina-is-makinesinin-kucuk-donusuyla-yerin-dibine-girdi-Y9xH
+2025-06-11 11:44:56,043 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/adanada-bir-bina-is-makinesinin-kucuk-donusuyla-yerin-dibine-girdi-Y9xH.mp4.backup
+2025-06-11 11:44:56,043 - INFO - Successfully replaced original file. Size reduced from 42.0MB to 10.1MB (-76.0%)
+2025-06-11 11:44:56,045 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/binalari-yikan-yapi-tipi-asmolen-AWjF.mp4
+2025-06-11 11:44:56,045 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/binalari-yikan-yapi-tipi-asmolen-AWjF.mp4
+2025-06-11 11:44:56,045 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638696_binalari-yikan-yapi-tipi-asmolen-AWjF
+2025-06-11 11:45:09,340 - INFO - Video encoding completed in 41.13s. Size: 33.3MB -> 10.3MB (-69.0%)
+2025-06-11 11:45:10,204 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638668_imamoglu-seferberlik-baslatiyoruz-mlni
+2025-06-11 11:45:10,207 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/imamoglu-seferberlik-baslatiyoruz-mlni.mp4.backup
+2025-06-11 11:45:10,207 - INFO - Successfully replaced original file. Size reduced from 33.3MB to 10.3MB (-69.0%)
+2025-06-11 11:45:10,209 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/4-yillik-binanin-kolonundan-cikanlar-vicdansizligi-gozler-onune-serdi-QWyn.mp4
+2025-06-11 11:45:10,209 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/4-yillik-binanin-kolonundan-cikanlar-vicdansizligi-gozler-onune-serdi-QWyn.mp4
+2025-06-11 11:45:10,210 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638710_4-yillik-binanin-kolonundan-cikanlar-vicdansizligi-gozler-onune-serdi-QWyn
+2025-06-11 11:45:13,604 - INFO - Video uploaded successfully: video_optimizer/1749638696_binalari-yikan-yapi-tipi-asmolen-AWjF
+2025-06-11 11:45:13,605 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638696_binalari-yikan-yapi-tipi-asmolen-AWjF
+2025-06-11 11:45:13,605 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638713_binalari-yikan-yapi-tipi-asmolen-AWjF.mp4
+2025-06-11 11:45:27,888 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:45:27,895 - INFO - Video uploaded successfully: video_optimizer/1749638710_4-yillik-binanin-kolonundan-cikanlar-vicdansizligi-gozler-onune-serdi-QWyn
+2025-06-11 11:45:27,896 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638710_4-yillik-binanin-kolonundan-cikanlar-vicdansizligi-gozler-onune-serdi-QWyn
+2025-06-11 11:45:27,896 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638727_4-yillik-binanin-kolonundan-cikanlar-vicdansizligi-gozler-onune-serdi-QWyn.mp4
+2025-06-11 11:45:40,734 - INFO - Video encoding completed in 70.18s. Size: 55.5MB -> 15.2MB (-72.7%)
+2025-06-11 11:45:41,165 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638670_erdal-bakkalda-depremzedelerin-yardimina-kostu-ilk-olarak-oraya-mudahale-ettik-H3j9
+2025-06-11 11:45:41,169 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/erdal-bakkalda-depremzedelerin-yardimina-kostu-ilk-olarak-oraya-mudahale-ettik-H3j9.mp4.backup
+2025-06-11 11:45:41,169 - INFO - Successfully replaced original file. Size reduced from 55.5MB to 15.2MB (-72.7%)
+2025-06-11 11:45:41,171 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/mbaye-diagne-otostop-ceken-ogrencileri-arabasina-alinca-ortaya-bu-goruntuler-cikti-FJz8.mp4
+2025-06-11 11:45:41,172 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/mbaye-diagne-otostop-ceken-ogrencileri-arabasina-alinca-ortaya-bu-goruntuler-cikti-FJz8.mp4
+2025-06-11 11:45:41,172 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638741_mbaye-diagne-otostop-ceken-ogrencileri-arabasina-alinca-ortaya-bu-goruntuler-cikti-FJz8
+2025-06-11 11:45:47,141 - INFO - Video uploaded successfully: video_optimizer/1749638741_mbaye-diagne-otostop-ceken-ogrencileri-arabasina-alinca-ortaya-bu-goruntuler-cikti-FJz8
+2025-06-11 11:45:47,142 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638741_mbaye-diagne-otostop-ceken-ogrencileri-arabasina-alinca-ortaya-bu-goruntuler-cikti-FJz8
+2025-06-11 11:45:47,142 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638747_mbaye-diagne-otostop-ceken-ogrencileri-arabasina-alinca-ortaya-bu-goruntuler-cikti-FJz8.mp4
+2025-06-11 11:45:49,381 - INFO - Video encoding completed in 53.34s. Size: 49.4MB -> 12.3MB (-75.0%)
+2025-06-11 11:45:49,932 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638696_binalari-yikan-yapi-tipi-asmolen-AWjF
+2025-06-11 11:45:49,935 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/binalari-yikan-yapi-tipi-asmolen-AWjF.mp4.backup
+2025-06-11 11:45:49,936 - INFO - Successfully replaced original file. Size reduced from 49.4MB to 12.3MB (-75.0%)
+2025-06-11 11:45:49,940 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/tezgahlari-boyle-atese-verdi-kundaklama-ani-guvenlik-kamerasinda-1Ty0.mp4
+2025-06-11 11:45:49,940 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/tezgahlari-boyle-atese-verdi-kundaklama-ani-guvenlik-kamerasinda-1Ty0.mp4
+2025-06-11 11:45:49,941 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638749_tezgahlari-boyle-atese-verdi-kundaklama-ani-guvenlik-kamerasinda-1Ty0
+2025-06-11 11:45:51,608 - INFO - Video encoding completed in 10.44s. Size: 11.7MB -> 1.1MB (-90.5%)
+2025-06-11 11:46:02,352 - WARNING - Failed to clean up Cloudinary resource video_optimizer/1749638741_mbaye-diagne-otostop-ceken-ogrencileri-arabasina-alinca-ortaya-bu-goruntuler-cikti-FJz8: Timeout waiting for parallel processing.
+2025-06-11 11:46:02,355 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/mbaye-diagne-otostop-ceken-ogrencileri-arabasina-alinca-ortaya-bu-goruntuler-cikti-FJz8.mp4.backup
+2025-06-11 11:46:02,355 - INFO - Successfully replaced original file. Size reduced from 11.7MB to 1.1MB (-90.5%)
+2025-06-11 11:46:02,357 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-N5mE.mp4
+2025-06-11 11:46:02,357 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-N5mE.mp4
+2025-06-11 11:46:02,357 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638762_son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-N5mE
+2025-06-11 11:46:02,527 - INFO - Video uploaded successfully: video_optimizer/1749638749_tezgahlari-boyle-atese-verdi-kundaklama-ani-guvenlik-kamerasinda-1Ty0
+2025-06-11 11:46:02,528 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638749_tezgahlari-boyle-atese-verdi-kundaklama-ani-guvenlik-kamerasinda-1Ty0
+2025-06-11 11:46:02,528 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638762_tezgahlari-boyle-atese-verdi-kundaklama-ani-guvenlik-kamerasinda-1Ty0.mp4
+2025-06-11 11:46:09,066 - INFO - Video encoding completed in 58.86s. Size: 48.2MB -> 12.0MB (-75.2%)
+2025-06-11 11:46:09,577 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638710_4-yillik-binanin-kolonundan-cikanlar-vicdansizligi-gozler-onune-serdi-QWyn
+2025-06-11 11:46:09,580 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/4-yillik-binanin-kolonundan-cikanlar-vicdansizligi-gozler-onune-serdi-QWyn.mp4.backup
+2025-06-11 11:46:09,581 - INFO - Successfully replaced original file. Size reduced from 48.2MB to 12.0MB (-75.2%)
+2025-06-11 11:46:09,582 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/herkes-gitti-bir-tek-o-kaldi-enkaza-donen-mahallesini-asla-terk-etmiyor-Wk1m.mp4
+2025-06-11 11:46:09,582 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/herkes-gitti-bir-tek-o-kaldi-enkaza-donen-mahallesini-asla-terk-etmiyor-Wk1m.mp4
+2025-06-11 11:46:09,583 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638769_herkes-gitti-bir-tek-o-kaldi-enkaza-donen-mahallesini-asla-terk-etmiyor-Wk1m
+2025-06-11 11:46:13,146 - INFO - Video uploaded successfully: video_optimizer/1749638762_son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-N5mE
+2025-06-11 11:46:13,146 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638762_son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-N5mE
+2025-06-11 11:46:13,147 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638773_son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-N5mE.mp4
+2025-06-11 11:46:22,874 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:46:22,882 - INFO - Video uploaded successfully: video_optimizer/1749638769_herkes-gitti-bir-tek-o-kaldi-enkaza-donen-mahallesini-asla-terk-etmiyor-Wk1m
+2025-06-11 11:46:22,882 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638769_herkes-gitti-bir-tek-o-kaldi-enkaza-donen-mahallesini-asla-terk-etmiyor-Wk1m
+2025-06-11 11:46:22,882 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638782_herkes-gitti-bir-tek-o-kaldi-enkaza-donen-mahallesini-asla-terk-etmiyor-Wk1m.mp4
+2025-06-11 11:46:32,312 - INFO - Video encoding completed in 42.37s. Size: 32.4MB -> 7.7MB (-76.2%)
+2025-06-11 11:46:32,816 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638749_tezgahlari-boyle-atese-verdi-kundaklama-ani-guvenlik-kamerasinda-1Ty0
+2025-06-11 11:46:32,818 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/tezgahlari-boyle-atese-verdi-kundaklama-ani-guvenlik-kamerasinda-1Ty0.mp4.backup
+2025-06-11 11:46:32,818 - INFO - Successfully replaced original file. Size reduced from 32.4MB to 7.7MB (-76.2%)
+2025-06-11 11:46:32,819 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/heimlich-manevrasi-ile-yasli-adamin-hayatini-boyle-kurtardi-qojr.mp4
+2025-06-11 11:46:32,819 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/heimlich-manevrasi-ile-yasli-adamin-hayatini-boyle-kurtardi-qojr.mp4
+2025-06-11 11:46:32,820 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638792_heimlich-manevrasi-ile-yasli-adamin-hayatini-boyle-kurtardi-qojr
+2025-06-11 11:46:35,432 - INFO - Video encoding completed in 33.08s. Size: 23.0MB -> 4.6MB (-80.2%)
+2025-06-11 11:46:36,453 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638762_son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-N5mE
+2025-06-11 11:46:36,454 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-N5mE.mp4.backup
+2025-06-11 11:46:36,454 - INFO - Successfully replaced original file. Size reduced from 23.0MB to 4.6MB (-80.2%)
+2025-06-11 11:46:36,456 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/unlu-sef-mehmet-yalcinkaya-msbnin-depremzedeler-icin-kurdugu-sahra-mutfaginda-AKBA.mp4
+2025-06-11 11:46:36,456 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/unlu-sef-mehmet-yalcinkaya-msbnin-depremzedeler-icin-kurdugu-sahra-mutfaginda-AKBA.mp4
+2025-06-11 11:46:36,456 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638796_unlu-sef-mehmet-yalcinkaya-msbnin-depremzedeler-icin-kurdugu-sahra-mutfaginda-AKBA
+2025-06-11 11:46:49,687 - INFO - Video uploaded successfully: video_optimizer/1749638792_heimlich-manevrasi-ile-yasli-adamin-hayatini-boyle-kurtardi-qojr
+2025-06-11 11:46:49,690 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638792_heimlich-manevrasi-ile-yasli-adamin-hayatini-boyle-kurtardi-qojr
+2025-06-11 11:46:49,690 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638809_heimlich-manevrasi-ile-yasli-adamin-hayatini-boyle-kurtardi-qojr.mp4
+2025-06-11 11:46:51,936 - INFO - Video encoding completed in 42.35s. Size: 39.7MB -> 9.6MB (-75.8%)
+2025-06-11 11:46:52,634 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638769_herkes-gitti-bir-tek-o-kaldi-enkaza-donen-mahallesini-asla-terk-etmiyor-Wk1m
+2025-06-11 11:46:52,638 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/herkes-gitti-bir-tek-o-kaldi-enkaza-donen-mahallesini-asla-terk-etmiyor-Wk1m.mp4.backup
+2025-06-11 11:46:52,638 - INFO - Successfully replaced original file. Size reduced from 39.7MB to 9.6MB (-75.8%)
+2025-06-11 11:46:52,640 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/azerbaycan-kurtarma-ekibi-ulkesine-dondu-HJzk.mp4
+2025-06-11 11:46:52,641 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/azerbaycan-kurtarma-ekibi-ulkesine-dondu-HJzk.mp4
+2025-06-11 11:46:52,642 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638812_azerbaycan-kurtarma-ekibi-ulkesine-dondu-HJzk
+2025-06-11 11:47:02,745 - INFO - Video encoding completed in 29.93s. Size: 19.9MB -> 3.4MB (-82.8%)
+2025-06-11 11:47:03,662 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638792_heimlich-manevrasi-ile-yasli-adamin-hayatini-boyle-kurtardi-qojr
+2025-06-11 11:47:03,664 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/heimlich-manevrasi-ile-yasli-adamin-hayatini-boyle-kurtardi-qojr.mp4.backup
+2025-06-11 11:47:03,665 - INFO - Successfully replaced original file. Size reduced from 19.9MB to 3.4MB (-82.8%)
+2025-06-11 11:47:03,666 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/mehmetcikten-depremzede-9-yasindaki-emire-surpriz-dogum-gunu-kutlamasi-klmH.mp4
+2025-06-11 11:47:03,666 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/mehmetcikten-depremzede-9-yasindaki-emire-surpriz-dogum-gunu-kutlamasi-klmH.mp4
+2025-06-11 11:47:03,667 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638823_mehmetcikten-depremzede-9-yasindaki-emire-surpriz-dogum-gunu-kutlamasi-klmH
+2025-06-11 11:47:05,960 - ERROR - Error encoding video /Users/volkanoluc/videos/2025/01/05/unlu-sef-mehmet-yalcinkaya-msbnin-depremzedeler-icin-kurdugu-sahra-mutfaginda-AKBA.mp4: Error parsing server response (413) - b'<html>\r\n<head><title>413 Request Entity Too Large</title></head>\r\n<body>\r\n<center><h1>413 Request Entity Too Large</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'. Got - Expecting value: line 1 column 1 (char 0)
+2025-06-11 11:47:06,589 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638796_unlu-sef-mehmet-yalcinkaya-msbnin-depremzedeler-icin-kurdugu-sahra-mutfaginda-AKBA
+2025-06-11 11:47:06,589 - ERROR - Failed to encode video: /Users/volkanoluc/videos/2025/01/05/unlu-sef-mehmet-yalcinkaya-msbnin-depremzedeler-icin-kurdugu-sahra-mutfaginda-AKBA.mp4
+2025-06-11 11:47:06,589 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/taksiciler-kontaklarini-depremzedeler-icin-cevirdi-8JYQ.mp4
+2025-06-11 11:47:06,590 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/taksiciler-kontaklarini-depremzedeler-icin-cevirdi-8JYQ.mp4
+2025-06-11 11:47:06,590 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638826_taksiciler-kontaklarini-depremzedeler-icin-cevirdi-8JYQ
+2025-06-11 11:47:11,408 - INFO - Video uploaded successfully: video_optimizer/1749638823_mehmetcikten-depremzede-9-yasindaki-emire-surpriz-dogum-gunu-kutlamasi-klmH
+2025-06-11 11:47:11,408 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638823_mehmetcikten-depremzede-9-yasindaki-emire-surpriz-dogum-gunu-kutlamasi-klmH
+2025-06-11 11:47:11,409 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638831_mehmetcikten-depremzede-9-yasindaki-emire-surpriz-dogum-gunu-kutlamasi-klmH.mp4
+2025-06-11 11:47:17,559 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:47:17,562 - ERROR - Error encoding video /Users/volkanoluc/videos/2025/01/05/azerbaycan-kurtarma-ekibi-ulkesine-dondu-HJzk.mp4: Error parsing server response (413) - b'<html>\r\n<head><title>413 Request Entity Too Large</title></head>\r\n<body>\r\n<center><h1>413 Request Entity Too Large</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'. Got - Expecting value: line 1 column 1 (char 0)
+2025-06-11 11:47:17,757 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638812_azerbaycan-kurtarma-ekibi-ulkesine-dondu-HJzk
+2025-06-11 11:47:17,757 - ERROR - Failed to encode video: /Users/volkanoluc/videos/2025/01/05/azerbaycan-kurtarma-ekibi-ulkesine-dondu-HJzk.mp4
+2025-06-11 11:47:17,758 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/adiyamanda-yikilan-abdullah-gunaydin-camii-minaresi-apartmani-ikiye-boldu-xXDQ.mp4
+2025-06-11 11:47:17,758 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/adiyamanda-yikilan-abdullah-gunaydin-camii-minaresi-apartmani-ikiye-boldu-xXDQ.mp4
+2025-06-11 11:47:17,758 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638837_adiyamanda-yikilan-abdullah-gunaydin-camii-minaresi-apartmani-ikiye-boldu-xXDQ
+2025-06-11 11:47:19,623 - INFO - Video encoding completed in 15.96s. Size: 13.2MB -> 1.6MB (-87.9%)
+2025-06-11 11:47:20,437 - INFO - Video uploaded successfully: video_optimizer/1749638826_taksiciler-kontaklarini-depremzedeler-icin-cevirdi-8JYQ
+2025-06-11 11:47:20,437 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638826_taksiciler-kontaklarini-depremzedeler-icin-cevirdi-8JYQ
+2025-06-11 11:47:20,437 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638840_taksiciler-kontaklarini-depremzedeler-icin-cevirdi-8JYQ.mp4
+2025-06-11 11:47:30,249 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:47:30,250 - WARNING - Failed to clean up Cloudinary resource video_optimizer/1749638823_mehmetcikten-depremzede-9-yasindaki-emire-surpriz-dogum-gunu-kutlamasi-klmH: Timeout waiting for parallel processing.
+2025-06-11 11:47:30,252 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/mehmetcikten-depremzede-9-yasindaki-emire-surpriz-dogum-gunu-kutlamasi-klmH.mp4.backup
+2025-06-11 11:47:30,252 - INFO - Successfully replaced original file. Size reduced from 13.2MB to 1.6MB (-87.9%)
+2025-06-11 11:47:30,252 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/lpg-tanki-bomba-gibi-patladi-savrulan-parcalar-onu-hayattan-boyle-kopardi-jiHe.mp4
+2025-06-11 11:47:30,252 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/lpg-tanki-bomba-gibi-patladi-savrulan-parcalar-onu-hayattan-boyle-kopardi-jiHe.mp4
+2025-06-11 11:47:30,253 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638850_lpg-tanki-bomba-gibi-patladi-savrulan-parcalar-onu-hayattan-boyle-kopardi-jiHe
+2025-06-11 11:47:36,495 - INFO - Video uploaded successfully: video_optimizer/1749638850_lpg-tanki-bomba-gibi-patladi-savrulan-parcalar-onu-hayattan-boyle-kopardi-jiHe
+2025-06-11 11:47:36,496 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638850_lpg-tanki-bomba-gibi-patladi-savrulan-parcalar-onu-hayattan-boyle-kopardi-jiHe
+2025-06-11 11:47:36,496 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638856_lpg-tanki-bomba-gibi-patladi-savrulan-parcalar-onu-hayattan-boyle-kopardi-jiHe.mp4
+2025-06-11 11:47:39,436 - INFO - Video encoding completed in 9.18s. Size: 10.8MB -> 0.6MB (-94.2%)
+2025-06-11 11:47:40,356 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638850_lpg-tanki-bomba-gibi-patladi-savrulan-parcalar-onu-hayattan-boyle-kopardi-jiHe
+2025-06-11 11:47:40,357 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/lpg-tanki-bomba-gibi-patladi-savrulan-parcalar-onu-hayattan-boyle-kopardi-jiHe.mp4.backup
+2025-06-11 11:47:40,357 - INFO - Successfully replaced original file. Size reduced from 10.8MB to 0.6MB (-94.2%)
+2025-06-11 11:47:40,358 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/son-dakika-bakan-kasapoglu-duyurdu-super-lig-maclari-sifresiz-yayinlanacak-B3NK.mp4
+2025-06-11 11:47:40,358 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/son-dakika-bakan-kasapoglu-duyurdu-super-lig-maclari-sifresiz-yayinlanacak-B3NK.mp4
+2025-06-11 11:47:40,358 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638860_son-dakika-bakan-kasapoglu-duyurdu-super-lig-maclari-sifresiz-yayinlanacak-B3NK
+2025-06-11 11:47:40,586 - INFO - Video uploaded successfully: video_optimizer/1749638837_adiyamanda-yikilan-abdullah-gunaydin-camii-minaresi-apartmani-ikiye-boldu-xXDQ
+2025-06-11 11:47:40,587 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638837_adiyamanda-yikilan-abdullah-gunaydin-camii-minaresi-apartmani-ikiye-boldu-xXDQ
+2025-06-11 11:47:40,587 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638860_adiyamanda-yikilan-abdullah-gunaydin-camii-minaresi-apartmani-ikiye-boldu-xXDQ.mp4
+2025-06-11 11:47:48,550 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:47:48,555 - INFO - Video uploaded successfully: video_optimizer/1749638860_son-dakika-bakan-kasapoglu-duyurdu-super-lig-maclari-sifresiz-yayinlanacak-B3NK
+2025-06-11 11:47:48,555 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638860_son-dakika-bakan-kasapoglu-duyurdu-super-lig-maclari-sifresiz-yayinlanacak-B3NK
+2025-06-11 11:47:48,555 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638868_son-dakika-bakan-kasapoglu-duyurdu-super-lig-maclari-sifresiz-yayinlanacak-B3NK.mp4
+2025-06-11 11:47:50,795 - INFO - Video encoding completed in 44.21s. Size: 30.0MB -> 6.9MB (-77.0%)
+2025-06-11 11:47:51,278 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638826_taksiciler-kontaklarini-depremzedeler-icin-cevirdi-8JYQ
+2025-06-11 11:47:51,278 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/taksiciler-kontaklarini-depremzedeler-icin-cevirdi-8JYQ.mp4.backup
+2025-06-11 11:47:51,278 - INFO - Successfully replaced original file. Size reduced from 30.0MB to 6.9MB (-77.0%)
+2025-06-11 11:47:51,279 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/kopegini-5-kez-buldu-6-kez-caldilar-rfyW.mp4
+2025-06-11 11:47:51,279 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/kopegini-5-kez-buldu-6-kez-caldilar-rfyW.mp4
+2025-06-11 11:47:51,279 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638871_kopegini-5-kez-buldu-6-kez-caldilar-rfyW
+2025-06-11 11:48:00,799 - INFO - Video encoding completed in 20.44s. Size: 21.3MB -> 3.6MB (-83.0%)
+2025-06-11 11:48:01,834 - INFO - Video uploaded successfully: video_optimizer/1749638871_kopegini-5-kez-buldu-6-kez-caldilar-rfyW
+2025-06-11 11:48:01,834 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638871_kopegini-5-kez-buldu-6-kez-caldilar-rfyW
+2025-06-11 11:48:01,834 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638881_kopegini-5-kez-buldu-6-kez-caldilar-rfyW.mp4
+2025-06-11 11:48:11,530 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:48:11,533 - WARNING - Failed to clean up Cloudinary resource video_optimizer/1749638860_son-dakika-bakan-kasapoglu-duyurdu-super-lig-maclari-sifresiz-yayinlanacak-B3NK: Timeout waiting for parallel processing.
+2025-06-11 11:48:11,538 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/son-dakika-bakan-kasapoglu-duyurdu-super-lig-maclari-sifresiz-yayinlanacak-B3NK.mp4.backup
+2025-06-11 11:48:11,539 - INFO - Successfully replaced original file. Size reduced from 21.3MB to 3.6MB (-83.0%)
+2025-06-11 11:48:11,543 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/abdden-evsizlere-buyuk-sok-toplu-olarak-yasadiklari-bolge-yasaklandi-79ze.mp4
+2025-06-11 11:48:11,544 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/abdden-evsizlere-buyuk-sok-toplu-olarak-yasadiklari-bolge-yasaklandi-79ze.mp4
+2025-06-11 11:48:11,546 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638891_abdden-evsizlere-buyuk-sok-toplu-olarak-yasadiklari-bolge-yasaklandi-79ze
+2025-06-11 11:48:29,086 - INFO - Video encoding completed in 37.81s. Size: 31.8MB -> 7.2MB (-77.3%)
+2025-06-11 11:48:30,426 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638871_kopegini-5-kez-buldu-6-kez-caldilar-rfyW
+2025-06-11 11:48:30,428 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/kopegini-5-kez-buldu-6-kez-caldilar-rfyW.mp4.backup
+2025-06-11 11:48:30,429 - INFO - Successfully replaced original file. Size reduced from 31.8MB to 7.2MB (-77.3%)
+2025-06-11 11:48:30,430 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/hatayda-ciftlik-4-metre-asagi-coktu-sahibi-kiyamet-kopuyor-zannettim-dedi-OpYO.mp4
+2025-06-11 11:48:30,430 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/hatayda-ciftlik-4-metre-asagi-coktu-sahibi-kiyamet-kopuyor-zannettim-dedi-OpYO.mp4
+2025-06-11 11:48:30,430 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638910_hatayda-ciftlik-4-metre-asagi-coktu-sahibi-kiyamet-kopuyor-zannettim-dedi-OpYO
+2025-06-11 11:48:38,394 - INFO - Video uploaded successfully: video_optimizer/1749638891_abdden-evsizlere-buyuk-sok-toplu-olarak-yasadiklari-bolge-yasaklandi-79ze
+2025-06-11 11:48:38,395 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638891_abdden-evsizlere-buyuk-sok-toplu-olarak-yasadiklari-bolge-yasaklandi-79ze
+2025-06-11 11:48:38,395 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638918_abdden-evsizlere-buyuk-sok-toplu-olarak-yasadiklari-bolge-yasaklandi-79ze.mp4
+2025-06-11 11:48:52,492 - INFO - Video encoding completed in 94.73s. Size: 67.2MB -> 18.7MB (-72.1%)
+2025-06-11 11:49:00,511 - INFO - Video uploaded successfully: video_optimizer/1749638910_hatayda-ciftlik-4-metre-asagi-coktu-sahibi-kiyamet-kopuyor-zannettim-dedi-OpYO
+2025-06-11 11:49:00,512 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638910_hatayda-ciftlik-4-metre-asagi-coktu-sahibi-kiyamet-kopuyor-zannettim-dedi-OpYO
+2025-06-11 11:49:00,512 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638940_hatayda-ciftlik-4-metre-asagi-coktu-sahibi-kiyamet-kopuyor-zannettim-dedi-OpYO.mp4
+2025-06-11 11:49:02,719 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:49:02,720 - WARNING - Failed to clean up Cloudinary resource video_optimizer/1749638837_adiyamanda-yikilan-abdullah-gunaydin-camii-minaresi-apartmani-ikiye-boldu-xXDQ: Timeout waiting for parallel processing.
+2025-06-11 11:49:02,725 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/adiyamanda-yikilan-abdullah-gunaydin-camii-minaresi-apartmani-ikiye-boldu-xXDQ.mp4.backup
+2025-06-11 11:49:02,725 - INFO - Successfully replaced original file. Size reduced from 67.2MB to 18.7MB (-72.1%)
+2025-06-11 11:49:02,727 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/sultanbeylide-itfaiyeye-yol-vermeyen-surucuye-para-cezasi-Z19n.mp4
+2025-06-11 11:49:02,728 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/sultanbeylide-itfaiyeye-yol-vermeyen-surucuye-para-cezasi-Z19n.mp4
+2025-06-11 11:49:02,728 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638942_sultanbeylide-itfaiyeye-yol-vermeyen-surucuye-para-cezasi-Z19n
+2025-06-11 11:49:07,460 - INFO - Video encoding completed in 55.92s. Size: 22.0MB -> 6.6MB (-69.9%)
+2025-06-11 11:49:08,384 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638891_abdden-evsizlere-buyuk-sok-toplu-olarak-yasadiklari-bolge-yasaklandi-79ze
+2025-06-11 11:49:08,386 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/abdden-evsizlere-buyuk-sok-toplu-olarak-yasadiklari-bolge-yasaklandi-79ze.mp4.backup
+2025-06-11 11:49:08,386 - INFO - Successfully replaced original file. Size reduced from 22.0MB to 6.6MB (-69.9%)
+2025-06-11 11:49:08,387 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/basina-buz-kutlesi-dusen-ozel-guvenlik-gorevlisi-oldu-alZv.mp4
+2025-06-11 11:49:08,387 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/basina-buz-kutlesi-dusen-ozel-guvenlik-gorevlisi-oldu-alZv.mp4
+2025-06-11 11:49:08,388 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638948_basina-buz-kutlesi-dusen-ozel-guvenlik-gorevlisi-oldu-alZv
+2025-06-11 11:49:12,841 - INFO - Video uploaded successfully: video_optimizer/1749638942_sultanbeylide-itfaiyeye-yol-vermeyen-surucuye-para-cezasi-Z19n
+2025-06-11 11:49:12,842 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638942_sultanbeylide-itfaiyeye-yol-vermeyen-surucuye-para-cezasi-Z19n
+2025-06-11 11:49:12,842 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638952_sultanbeylide-itfaiyeye-yol-vermeyen-surucuye-para-cezasi-Z19n.mp4
+2025-06-11 11:49:27,557 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:49:27,565 - INFO - Video uploaded successfully: video_optimizer/1749638948_basina-buz-kutlesi-dusen-ozel-guvenlik-gorevlisi-oldu-alZv
+2025-06-11 11:49:27,566 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638948_basina-buz-kutlesi-dusen-ozel-guvenlik-gorevlisi-oldu-alZv
+2025-06-11 11:49:27,566 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749638967_basina-buz-kutlesi-dusen-ozel-guvenlik-gorevlisi-oldu-alZv.mp4
+2025-06-11 11:49:33,510 - INFO - Video encoding completed in 63.08s. Size: 42.1MB -> 10.2MB (-75.8%)
+2025-06-11 11:49:34,110 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638910_hatayda-ciftlik-4-metre-asagi-coktu-sahibi-kiyamet-kopuyor-zannettim-dedi-OpYO
+2025-06-11 11:49:34,111 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/hatayda-ciftlik-4-metre-asagi-coktu-sahibi-kiyamet-kopuyor-zannettim-dedi-OpYO.mp4.backup
+2025-06-11 11:49:34,111 - INFO - Successfully replaced original file. Size reduced from 42.1MB to 10.2MB (-75.8%)
+2025-06-11 11:49:34,112 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/azerbaycan-kurtarma-ekibi-ulkesine-dondu-Zb5b.mp4
+2025-06-11 11:49:34,112 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/azerbaycan-kurtarma-ekibi-ulkesine-dondu-Zb5b.mp4
+2025-06-11 11:49:34,112 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638974_azerbaycan-kurtarma-ekibi-ulkesine-dondu-Zb5b
+2025-06-11 11:49:36,410 - INFO - Video encoding completed in 33.68s. Size: 25.3MB -> 5.5MB (-78.3%)
+2025-06-11 11:49:37,515 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638942_sultanbeylide-itfaiyeye-yol-vermeyen-surucuye-para-cezasi-Z19n
+2025-06-11 11:49:37,516 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/sultanbeylide-itfaiyeye-yol-vermeyen-surucuye-para-cezasi-Z19n.mp4.backup
+2025-06-11 11:49:37,517 - INFO - Successfully replaced original file. Size reduced from 25.3MB to 5.5MB (-78.3%)
+2025-06-11 11:49:37,517 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/istanbul-kagithanede-dehset-anlari-genc-kadini-darp-etti-havaya-ates-acti-uXYZ.mp4
+2025-06-11 11:49:37,517 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/istanbul-kagithanede-dehset-anlari-genc-kadini-darp-etti-havaya-ates-acti-uXYZ.mp4
+2025-06-11 11:49:37,518 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749638977_istanbul-kagithanede-dehset-anlari-genc-kadini-darp-etti-havaya-ates-acti-uXYZ
+2025-06-11 11:50:03,981 - ERROR - Error encoding video /Users/volkanoluc/videos/2025/01/05/azerbaycan-kurtarma-ekibi-ulkesine-dondu-Zb5b.mp4: Error parsing server response (413) - b'<html>\r\n<head><title>413 Request Entity Too Large</title></head>\r\n<body>\r\n<center><h1>413 Request Entity Too Large</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'. Got - Expecting value: line 1 column 1 (char 0)
+2025-06-11 11:50:04,904 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638974_azerbaycan-kurtarma-ekibi-ulkesine-dondu-Zb5b
+2025-06-11 11:50:04,906 - ERROR - Failed to encode video: /Users/volkanoluc/videos/2025/01/05/azerbaycan-kurtarma-ekibi-ulkesine-dondu-Zb5b.mp4
+2025-06-11 11:50:04,906 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/kahramanmaras-elbistanda-depremle-yarilan-tarlalardan-yuzeye-su-cikti-rHKD.mp4
+2025-06-11 11:50:04,906 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/kahramanmaras-elbistanda-depremle-yarilan-tarlalardan-yuzeye-su-cikti-rHKD.mp4
+2025-06-11 11:50:04,907 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749639004_kahramanmaras-elbistanda-depremle-yarilan-tarlalardan-yuzeye-su-cikti-rHKD
+2025-06-11 11:50:12,179 - INFO - Video uploaded successfully: video_optimizer/1749638977_istanbul-kagithanede-dehset-anlari-genc-kadini-darp-etti-havaya-ates-acti-uXYZ
+2025-06-11 11:50:12,180 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749638977_istanbul-kagithanede-dehset-anlari-genc-kadini-darp-etti-havaya-ates-acti-uXYZ
+2025-06-11 11:50:12,180 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749639012_istanbul-kagithanede-dehset-anlari-genc-kadini-darp-etti-havaya-ates-acti-uXYZ.mp4
+2025-06-11 11:50:16,098 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:50:16,102 - INFO - Video uploaded successfully: video_optimizer/1749639004_kahramanmaras-elbistanda-depremle-yarilan-tarlalardan-yuzeye-su-cikti-rHKD
+2025-06-11 11:50:16,102 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749639004_kahramanmaras-elbistanda-depremle-yarilan-tarlalardan-yuzeye-su-cikti-rHKD
+2025-06-11 11:50:16,102 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749639016_kahramanmaras-elbistanda-depremle-yarilan-tarlalardan-yuzeye-su-cikti-rHKD.mp4
+2025-06-11 11:50:22,311 - INFO - Video encoding completed in 73.92s. Size: 52.5MB -> 14.1MB (-73.1%)
+2025-06-11 11:50:23,194 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638948_basina-buz-kutlesi-dusen-ozel-guvenlik-gorevlisi-oldu-alZv
+2025-06-11 11:50:23,196 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/basina-buz-kutlesi-dusen-ozel-guvenlik-gorevlisi-oldu-alZv.mp4.backup
+2025-06-11 11:50:23,196 - INFO - Successfully replaced original file. Size reduced from 52.5MB to 14.1MB (-73.1%)
+2025-06-11 11:50:23,198 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/carpici-fotograf-deprem-oncesi-ve-sonra-kahramanmaras-0q6i.mp4
+2025-06-11 11:50:23,198 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/carpici-fotograf-deprem-oncesi-ve-sonra-kahramanmaras-0q6i.mp4
+2025-06-11 11:50:23,198 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749639023_carpici-fotograf-deprem-oncesi-ve-sonra-kahramanmaras-0q6i
+2025-06-11 11:50:31,238 - INFO - Video encoding completed in 26.33s. Size: 19.4MB -> 3.4MB (-82.2%)
+2025-06-11 11:50:31,858 - INFO - Video uploaded successfully: video_optimizer/1749639023_carpici-fotograf-deprem-oncesi-ve-sonra-kahramanmaras-0q6i
+2025-06-11 11:50:31,859 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749639023_carpici-fotograf-deprem-oncesi-ve-sonra-kahramanmaras-0q6i
+2025-06-11 11:50:31,859 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749639031_carpici-fotograf-deprem-oncesi-ve-sonra-kahramanmaras-0q6i.mp4
+2025-06-11 11:50:32,138 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:50:32,140 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749639004_kahramanmaras-elbistanda-depremle-yarilan-tarlalardan-yuzeye-su-cikti-rHKD
+2025-06-11 11:50:32,142 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/kahramanmaras-elbistanda-depremle-yarilan-tarlalardan-yuzeye-su-cikti-rHKD.mp4.backup
+2025-06-11 11:50:32,142 - INFO - Successfully replaced original file. Size reduced from 19.4MB to 3.4MB (-82.2%)
+2025-06-11 11:50:32,144 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-nC97.mp4
+2025-06-11 11:50:32,144 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-nC97.mp4
+2025-06-11 11:50:32,144 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749639032_son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-nC97
+2025-06-11 11:50:43,577 - INFO - Video uploaded successfully: video_optimizer/1749639032_son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-nC97
+2025-06-11 11:50:43,578 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749639032_son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-nC97
+2025-06-11 11:50:43,578 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749639043_son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-nC97.mp4
+2025-06-11 11:50:46,890 - INFO - Video encoding completed in 69.37s. Size: 48.4MB -> 9.0MB (-81.4%)
+2025-06-11 11:50:47,883 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749638977_istanbul-kagithanede-dehset-anlari-genc-kadini-darp-etti-havaya-ates-acti-uXYZ
+2025-06-11 11:50:47,883 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/istanbul-kagithanede-dehset-anlari-genc-kadini-darp-etti-havaya-ates-acti-uXYZ.mp4.backup
+2025-06-11 11:50:47,883 - INFO - Successfully replaced original file. Size reduced from 48.4MB to 9.0MB (-81.4%)
+2025-06-11 11:50:47,884 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/istanbulda-dehsete-dusuren-goruntuler-bina-tel-tel-dokuluyor-0saI.mp4
+2025-06-11 11:50:47,884 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/istanbulda-dehsete-dusuren-goruntuler-bina-tel-tel-dokuluyor-0saI.mp4
+2025-06-11 11:50:47,884 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749639047_istanbulda-dehsete-dusuren-goruntuler-bina-tel-tel-dokuluyor-0saI
+2025-06-11 11:50:57,657 - INFO - Video encoding completed in 34.46s. Size: 27.2MB -> 8.3MB (-69.6%)
+2025-06-11 11:50:58,782 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749639023_carpici-fotograf-deprem-oncesi-ve-sonra-kahramanmaras-0q6i
+2025-06-11 11:50:58,783 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/carpici-fotograf-deprem-oncesi-ve-sonra-kahramanmaras-0q6i.mp4.backup
+2025-06-11 11:50:58,784 - INFO - Successfully replaced original file. Size reduced from 27.2MB to 8.3MB (-69.6%)
+2025-06-11 11:50:58,788 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/malatyada-40-saat-sonra-enkazdan-altindan-cikarilmisti-minik-aysima-kahramanlariyla-gorustu-LZQl.mp4
+2025-06-11 11:50:58,788 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/malatyada-40-saat-sonra-enkazdan-altindan-cikarilmisti-minik-aysima-kahramanlariyla-gorustu-LZQl.mp4
+2025-06-11 11:50:58,789 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749639058_malatyada-40-saat-sonra-enkazdan-altindan-cikarilmisti-minik-aysima-kahramanlariyla-gorustu-LZQl
+2025-06-11 11:51:00,951 - INFO - Video encoding completed in 28.81s. Size: 26.2MB -> 5.6MB (-78.7%)
+2025-06-11 11:51:01,935 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749639032_son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-nC97
+2025-06-11 11:51:01,937 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/son-dakika-yunanistan-selanikte-iki-tren-carpisti-onlarca-olu-cok-sayida-yarali-var-nC97.mp4.backup
+2025-06-11 11:51:01,937 - INFO - Successfully replaced original file. Size reduced from 26.2MB to 5.6MB (-78.7%)
+2025-06-11 11:51:01,938 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/deprem-firsatcilarina-ceza-yolda-lDAZ.mp4
+2025-06-11 11:51:01,938 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/deprem-firsatcilarina-ceza-yolda-lDAZ.mp4
+2025-06-11 11:51:01,938 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749639061_deprem-firsatcilarina-ceza-yolda-lDAZ
+2025-06-11 11:51:10,546 - INFO - Video uploaded successfully: video_optimizer/1749639047_istanbulda-dehsete-dusuren-goruntuler-bina-tel-tel-dokuluyor-0saI
+2025-06-11 11:51:10,547 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749639047_istanbulda-dehsete-dusuren-goruntuler-bina-tel-tel-dokuluyor-0saI
+2025-06-11 11:51:10,548 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749639070_istanbulda-dehsete-dusuren-goruntuler-bina-tel-tel-dokuluyor-0saI.mp4
+2025-06-11 11:51:23,767 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:51:23,778 - INFO - Video uploaded successfully: video_optimizer/1749639058_malatyada-40-saat-sonra-enkazdan-altindan-cikarilmisti-minik-aysima-kahramanlariyla-gorustu-LZQl
+2025-06-11 11:51:23,779 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749639058_malatyada-40-saat-sonra-enkazdan-altindan-cikarilmisti-minik-aysima-kahramanlariyla-gorustu-LZQl
+2025-06-11 11:51:23,779 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749639083_malatyada-40-saat-sonra-enkazdan-altindan-cikarilmisti-minik-aysima-kahramanlariyla-gorustu-LZQl.mp4
+2025-06-11 11:51:24,550 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:51:24,557 - INFO - Video uploaded successfully: video_optimizer/1749639061_deprem-firsatcilarina-ceza-yolda-lDAZ
+2025-06-11 11:51:24,557 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749639061_deprem-firsatcilarina-ceza-yolda-lDAZ
+2025-06-11 11:51:24,557 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749639084_deprem-firsatcilarina-ceza-yolda-lDAZ.mp4
+2025-06-11 11:52:08,338 - INFO - Video encoding completed in 66.40s. Size: 42.8MB -> 11.9MB (-72.3%)
+2025-06-11 11:52:08,928 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749639061_deprem-firsatcilarina-ceza-yolda-lDAZ
+2025-06-11 11:52:08,930 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/deprem-firsatcilarina-ceza-yolda-lDAZ.mp4.backup
+2025-06-11 11:52:08,931 - INFO - Successfully replaced original file. Size reduced from 42.8MB to 11.9MB (-72.3%)
+2025-06-11 11:52:08,932 - INFO - Processing video: /Users/volkanoluc/videos/2025/01/05/15-yildir-saclarini-yikamayan-kadin-umrumda-degil-QEyi.mp4
+2025-06-11 11:52:08,933 - INFO - Starting Cloudinary encoding of /Users/volkanoluc/videos/2025/01/05/15-yildir-saclarini-yikamayan-kadin-umrumda-degil-QEyi.mp4
+2025-06-11 11:52:08,933 - INFO - Uploading video to Cloudinary with public_id: video_optimizer/1749639128_15-yildir-saclarini-yikamayan-kadin-umrumda-degil-QEyi
+2025-06-11 11:52:20,271 - INFO - Video encoding completed in 81.48s. Size: 55.2MB -> 13.8MB (-75.0%)
+2025-06-11 11:52:20,560 - INFO - Video encoding completed in 92.68s. Size: 64.4MB -> 20.7MB (-67.9%)
+2025-06-11 11:52:21,181 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749639058_malatyada-40-saat-sonra-enkazdan-altindan-cikarilmisti-minik-aysima-kahramanlariyla-gorustu-LZQl
+2025-06-11 11:52:21,182 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/malatyada-40-saat-sonra-enkazdan-altindan-cikarilmisti-minik-aysima-kahramanlariyla-gorustu-LZQl.mp4.backup
+2025-06-11 11:52:21,182 - INFO - Successfully replaced original file. Size reduced from 55.2MB to 13.8MB (-75.0%)
+2025-06-11 11:52:21,625 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:52:21,628 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749639047_istanbulda-dehsete-dusuren-goruntuler-bina-tel-tel-dokuluyor-0saI
+2025-06-11 11:52:21,629 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/istanbulda-dehsete-dusuren-goruntuler-bina-tel-tel-dokuluyor-0saI.mp4.backup
+2025-06-11 11:52:21,629 - INFO - Successfully replaced original file. Size reduced from 64.4MB to 20.7MB (-67.9%)
+2025-06-11 11:52:27,633 - WARNING - Connection pool is full, discarding connection: api.cloudinary.com. Connection pool size: 1
+2025-06-11 11:52:27,642 - INFO - Video uploaded successfully: video_optimizer/1749639128_15-yildir-saclarini-yikamayan-kadin-umrumda-degil-QEyi
+2025-06-11 11:52:27,643 - INFO - Generated optimized URL: https://res.cloudinary.com/dq285s8wr/video/upload/ac_aac,br_600k,c_limit,f_auto,fl_progressive,fps_30,h_720,q_auto:good,vc_h265,w_1280/v1/video_optimizer/1749639128_15-yildir-saclarini-yikamayan-kadin-umrumda-degil-QEyi
+2025-06-11 11:52:27,643 - INFO - Downloading optimized video to: /tmp/cloudinary_temp/cloudinary_optimized_1749639147_15-yildir-saclarini-yikamayan-kadin-umrumda-degil-QEyi.mp4
+2025-06-11 11:53:18,729 - INFO - Video encoding completed in 69.80s. Size: 44.2MB -> 11.1MB (-74.8%)
+2025-06-11 11:53:19,329 - INFO - Cleaned up Cloudinary resource: video_optimizer/1749639128_15-yildir-saclarini-yikamayan-kadin-umrumda-degil-QEyi
+2025-06-11 11:53:19,334 - INFO - Created backup: /Users/volkanoluc/videos/2025/01/05/15-yildir-saclarini-yikamayan-kadin-umrumda-degil-QEyi.mp4.backup
+2025-06-11 11:53:19,334 - INFO - Successfully replaced original file. Size reduced from 44.2MB to 11.1MB (-74.8%)
+2025-06-11 11:53:19,336 - INFO - Async processing completed. 55/60 videos processed successfully
+2025-06-11 11:53:19,336 - INFO - Video encoding completed. Total videos processed: 55
