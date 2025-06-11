@@ -11,8 +11,8 @@ import cloudinary.api
 from cloudinary.utils import cloudinary_url
 
 # Configuration
-CLOUDINARY_CLOUD_NAME = os.getenv('CLOUDINARY_CLOUD_NAME', 'dq285s8wr')
-CLOUDINARY_API_KEY = os.getenv('CLOUDINARY_API_KEY', '715242771921863')
+CLOUDINARY_CLOUD_NAME = os.getenv('CLOUDINARY_CLOUD_NAME')
+CLOUDINARY_API_KEY = os.getenv('CLOUDINARY_API_KEY')
 CLOUDINARY_API_SECRET = os.getenv('CLOUDINARY_API_SECRET')
 
 def test_cloudinary_setup():
@@ -24,9 +24,19 @@ def test_cloudinary_setup():
     # Check environment variables
     print("1. Checking environment variables...")
     
+    missing_vars = []
+    if not CLOUDINARY_CLOUD_NAME:
+        missing_vars.append("CLOUDINARY_CLOUD_NAME")
+    if not CLOUDINARY_API_KEY:
+        missing_vars.append("CLOUDINARY_API_KEY")
     if not CLOUDINARY_API_SECRET:
-        print("❌ CLOUDINARY_API_SECRET environment variable is not set!")
-        print("   Please set it with: export CLOUDINARY_API_SECRET='your_api_secret'")
+        missing_vars.append("CLOUDINARY_API_SECRET")
+    
+    if missing_vars:
+        print(f"❌ Missing environment variables: {', '.join(missing_vars)}")
+        print("   Please set them with:")
+        for var in missing_vars:
+            print(f"   export {var}='your_{var.lower()}_here'")
         return False
     
     print(f"✅ CLOUDINARY_CLOUD_NAME: {CLOUDINARY_CLOUD_NAME}")
@@ -101,12 +111,17 @@ def show_help():
     print()
     print("This script tests your Cloudinary configuration.")
     print()
-    print("Before running, make sure you have set your API secret:")
-    print("   export CLOUDINARY_API_SECRET='your_api_secret_here'")
+    print("Before running, set up your environment variables.")
+    print("See ENVIRONMENT_SETUP.md for detailed instructions.")
     print()
-    print("You can find your API secret at:")
+    print("Quick setup:")
+    print("   export CLOUDINARY_CLOUD_NAME='your_cloud_name'")
+    print("   export CLOUDINARY_API_KEY='your_api_key'")
+    print("   export CLOUDINARY_API_SECRET='your_api_secret'")
+    print()
+    print("You can find your credentials at:")
     print("   https://console.cloudinary.com/")
-    print("   → Dashboard → API Keys → API Secret")
+    print("   → Dashboard → API Keys")
     print()
 
 if __name__ == "__main__":

@@ -61,21 +61,29 @@ pip install -r requirements.txt
 
 ### 4. Environment Değişkenlerini Ayarlayın
 
-```bash
-# .env dosyası oluşturun
-cp .env.example .env
+**Önemli Güvenlik Uyarısı**: API anahtarlarınızı kaynak koduna yazmayın!
 
-# .env dosyasını düzenleyin
-nano .env
+Environment değişkenlerini ayarlamak için `ENVIRONMENT_SETUP.md` dosyasına bakın:
+
+```bash
+# Environment setup dosyasını inceleyin
+cat ENVIRONMENT_SETUP.md
 ```
 
-`.env` dosyasının içeriği:
+Temel setup:
 ```bash
-CLOUDCONVERT_API_KEY=your_actual_api_key_here
-VIDEOS_BASE_PATH=/videos
-LOG_LEVEL=INFO
-TEMP_DIR=/tmp/cloudconvert_temp
+# .env dosyası oluşturun (önerilen)
+touch .env
+
+# .env dosyasına API anahtarınızı ekleyin
+echo "CLOUDCONVERT_API_KEY=your_actual_api_key_here" >> .env
+echo "VIDEOS_BASE_PATH=/videos" >> .env
+
+# Environment'ı yükleyin
+source .env
 ```
+
+**Not**: `.env` dosyası git'e commitlemeyin - `.gitignore` dosyasında zaten hariç tutulmuştur.
 
 ### 5. Gerekli Klasörleri Oluşturun
 

@@ -26,8 +26,8 @@ import requests
 import tempfile
 
 # Configuration
-CLOUDINARY_CLOUD_NAME = os.getenv('CLOUDINARY_CLOUD_NAME', 'dq285s8wr')
-CLOUDINARY_API_KEY = os.getenv('CLOUDINARY_API_KEY', '715242771921863')
+CLOUDINARY_CLOUD_NAME = os.getenv('CLOUDINARY_CLOUD_NAME')
+CLOUDINARY_API_KEY = os.getenv('CLOUDINARY_API_KEY')
 CLOUDINARY_API_SECRET = os.getenv('CLOUDINARY_API_SECRET')
 
 VIDEOS_BASE_PATH = '/Users/volkanoluc/videos'
@@ -73,6 +73,11 @@ USE_EXTREME_COMPRESSION = False
 class AsyncVideoEncoderCloudinary:
     def __init__(self):
         """Initialize the async video encoder with Cloudinary configuration"""
+        # Check that all required environment variables are set
+        if not CLOUDINARY_CLOUD_NAME:
+            raise ValueError("CLOUDINARY_CLOUD_NAME environment variable must be set")
+        if not CLOUDINARY_API_KEY:
+            raise ValueError("CLOUDINARY_API_KEY environment variable must be set")
         if not CLOUDINARY_API_SECRET:
             raise ValueError("CLOUDINARY_API_SECRET environment variable must be set")
         
